@@ -510,6 +510,7 @@ header ul li {
 }
 */
 
+/*
 .scroll-button {
     text-decoration: none;
     background: none;
@@ -536,6 +537,20 @@ header ul li {
     transition-timing-function: ease;
     transition-delay: .5s;
 }
+*/
+.scroll-button {
+    bottom: 0;
+    text-decoration: none;
+    margin-left: 10px;
+
+    /*        transform: rotate(90deg);*/
+    justify-content: end;
+    border: 2px solid black;
+    height: 100%;
+    width: 80px;
+}
+
+.scroll-button a {}
 
 .C2-Container {
     width: 100%;
