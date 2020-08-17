@@ -57,8 +57,10 @@ body {
 }
 
 .navbar .logo {
-    position: absolute;
-    top: 70px;
+    position: relative;
+    top: 40px;
+    right: 15px;
+    display: block;
 
 
 }
@@ -68,6 +70,7 @@ body {
     color: black;
     font-size: 1.5rem;
     font-family: sans-serif;
+
 
 }
 
@@ -397,8 +400,8 @@ header ul li {
 
 .navbar .button_slide {
 
-    position: absolute;
-    right: 4%;
+
+    right: 10px;
 
     display: inline-block;
     top: 85px;
@@ -438,6 +441,7 @@ header ul li {
     font-size: 1.1rem;
     text-decoration: none;
     cursor: pointer;
+    outline: none;
 
 
 }
@@ -445,7 +449,7 @@ header ul li {
 .button-div {
     position: absolute;
     top: 85px;
-    right: 25%;
+    right: 20%;
     font-weight: 500;
 }
 
@@ -560,3 +564,81 @@ header ul li {
     position: absolute;
     background: rgb(232, 113, 95, 0.5);
 }
+
+@media (max-width: 768px) {
+    .logo strong {
+        font-size: 0.5rem;
+        display: inline;
+        right: 10%;
+        font-weight: 100;
+        padding: 10px;
+        position: absolute;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .button-div {
+        display: inline;
+        right: 15%;
+        font-weight: 300;
+        padding: 10px;
+        position: absolute;
+
+    }
+}
+
+
+
+
+/*copy html*/
+/*
+.menu-nav {
+    position: absolute;
+}
+
+#menu {
+    list-style: none;
+    margin-top: 70px;
+    position: relative;
+    right: -7%;
+        border: 2px solid black;
+    display: inline-block;
+
+}
+
+#menu li {
+    display: inline-block;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#menu li a {
+    color: black;
+    padding: 10px 60px;
+    display: block;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+
+#menu li a:hover {
+
+    text-decoration-line: underline;
+    transform: translateY(-10px);
+    transition: 0.4s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-in-out;
+
+}
+*/
