@@ -1,0 +1,547 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+    max-height: 802px;
+
+    margin: 0;
+
+
+
+
+}
+
+.slideshow-inner {
+    margin: 0;
+    padding: 0;
+    /*    height: 80%;*/
+    position: absolute
+}
+
+#mynavbar .navbar {
+    /*
+    margin-right: 0px;
+    position: absolute;
+*/
+
+}
+
+.navbar-toggler-icon {
+    color: black;
+    backface-visibility: visible;
+    overflow: visible;
+}
+
+.im .navbar {
+    border: 2px solid black;
+    max-height: 802px;
+
+
+
+
+
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding-right: 0px;
+
+
+}
+
+.navbar .logo {
+    position: absolute;
+    top: 70px;
+
+
+}
+
+.logo strong {
+    opacity: 0;
+    color: black;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+
+}
+
+.logo span {
+    color: rgb(232, 113, 95);
+}
+
+.logo:hover strong {
+    opacity: 1;
+    transform: translateX(10px);
+    transition: 0.6s ease;
+}
+
+.slideshow-container {
+    max-width: 2000px;
+    /*    position: absolute;*/
+    padding: 0;
+    margin: 0;
+
+
+    /*
+    position: relative;
+    margin: auto;
+*/
+    /*    height: 400px;*/
+}
+
+.mySlides {
+    /*    display: none;*/
+    /*    height: 400px;*/
+    border: solid 1px black;
+    max-height: 802px;
+
+}
+
+
+
+/*
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev:hover,
+.next:hover {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+*/
+.dot-div {
+    margin-top: -30px;
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 2px;
+    width: 20px;
+
+    background-color: #bbb;
+
+    display: inline-block;
+    transition: background-color .6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+header {
+    width: 100%;
+    height: 8%;
+    top: 0;
+    right: 0;
+                border: 2px solid black;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    max-height: 10px;
+}
+*/
+/*
+header ul {
+
+    right: 5%;
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    float: right;
+}
+
+header ul li {
+    display: inherit;
+    padding: 4%;
+    right: 2%;
+    display: block;
+    font-size: 1.3vw;
+    font-weight: 500;
+
+    text-align: center;
+
+}
+*/
+
+
+
+.slideshow-container {
+    max-width: 2000px;
+    max-height: 802px;
+
+    /*    position: absolute;*/
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+
+}
+
+/*
+.container:after {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+
+}
+*/
+
+.slideshow-inner {
+    max-height: 762px;
+    /*    position: absolute;*/
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    /*            bottom: 0;*/
+    display: flex;
+
+
+}
+
+.shade {
+    max-width: 2000px;
+    max-height: 802px;
+
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.slideshow-container .slideshow-inner img {
+    max-height: 762px;
+}
+
+.mySlides {
+    /*    display: none;*/
+    /*            max-height: 800px;*/
+
+
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    height: 200px;
+    width: auto;
+    margin-top: 0;
+    padding: 0;
+    color: rgb(91, 91, 113, 0.0);
+    /*            font-weight: bold;*/
+    font-size: 40px;
+    transition: .6s ease;
+    border-radius: 0 1px 1px 0;
+    opacity: 0;
+}
+
+.next {
+    right: 1%;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.prev {
+    left: 1%;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.text-link {
+    font-family: sans-serif;
+    font-weight: 400;
+    top: 40%;
+    font-size: 1.5vw;
+    display: flex;
+    color: rgb(91, 91, 113, 0.0);
+}
+
+/*
+        .prev:hover,
+        .next:hover {
+            color: #f2f2f2;
+            background-color: rgba(0, 0, 0, 0.8)
+        }
+*/
+
+/*
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222428
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+*/
+
+.dot-div {
+
+    position: absolute;
+    right: 45%;
+    /*            bottom: 5%;*/
+    width: 13%;
+    /*            height: 2%;*/
+    display: inline-flex;
+    top: 90%;
+
+
+}
+
+.dot {
+    cursor: pointer;
+    height: 0.1rem;
+    width: 20%;
+    margin: 3px;
+    background-color: rgb(229, 147, 142);
+
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+}
+
+.active,
+.dot:hover {
+    background-color: rgb(204, 22, 22);
+}
+
+
+
+/*
+        .vline {
+            height: 100%;
+            width: 5%;
+            position: absolute;
+            color: rgb(91, 91, 113);
+
+        }
+*/
+
+.slideshow-inner .vl-line {
+    border-left: 1.5px solid rgb(91, 91, 113, 0.7);
+    max-height: 762px;
+    position: absolute;
+    left: 4%;
+
+    top: 0;
+    bottom: 0%;
+
+
+}
+
+.vr-line {
+    border-left: 1.5px solid rgb(91, 91, 113, 0.7);
+    max-height: 762px;
+    bottom: 0;
+    position: absolute;
+    right: 4%;
+    top: 0;
+
+}
+
+
+.navbar .button_slide {
+
+    position: absolute;
+    right: 4%;
+
+    display: inline-block;
+    top: 85px;
+
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: inset -25px 0 0 0 white;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    /*    width: 12%;*/
+    /*    height: 410%;*/
+    text-align: center;
+    /*    padding-top: 10px;*/
+    font-size: 1.1rem;
+
+}
+
+
+
+
+
+.navbar .slide_right:hover {
+    box-shadow: inset -400px 0 0 0 white;
+    border-radius: 5px;
+    background: white;
+}
+
+.navbar button {
+    display: inline;
+    background: none;
+    border: none;
+    margin-left: 8rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+.button-div {
+    position: absolute;
+    top: 85px;
+    right: 25%;
+    font-weight: 500;
+}
+
+.navbar button:hover {
+    border-bottom: 1px solid black;
+    transform: translateY(-10px);
+    transition: 0.4s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-in-out;
+
+}
+
+
+/*
+.logo-box .logo {
+    position: relative;
+    max-width: 4em;
+    max-height: auto;
+    left: 7%;
+    margin-top: 4%;
+                display: flex;
+    top: 10%;
+}
+
+
+.logo-box .logo img {
+    position: relative;
+    margin-left: 30%;
+    margin-top: 10%;
+    max-width: 5em;
+    top: 10%;
+
+
+
+}
+
+
+
+
+.logo-box .Full-logo {
+    position: relative;
+    left: 20%;
+
+    top: 0%;
+    margin-top: 0%;
+    opacity: 0;
+    font-family: sans-serif;
+    display: inline-block;
+
+
+}
+
+.logo-box {
+    position: absolute;
+
+}
+
+.logo-box:hover .Full-logo {
+    opacity: 1;
+    transform: translateX(10px);
+    transition: 0.4s;
+}
+*/
+
+.scroll-button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    bottom: 12%;
+    position: absolute;
+    transform: rotate(90deg);
+    transition: transform 0.4s ease 0s;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.scroll-button:hover {
+    bottom: 2%;
+    display: inline;
+    right: 5%;
+    position: relative;
+    transform: rotate(45deg);
+    transition: transform 0.4s ease .3s;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: .5s;
+}
+
+.C2-Container {
+    width: 100%;
+    height: 762px;
+    border: 2px solid red;
+    top: 762px;
+    position: absolute;
+    background: rgb(232, 113, 95, 0.5);
+}

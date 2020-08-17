@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Power2Create</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class=" .container slideshow-container">
+        <div class="slideshow-inner">
+            <div class="shade">
+                <!--
+                <div class="logo-box">
+                    <div class="logo">
+                        <img src="img/arc_favicon.png">
+                                                <img src="img/quote.png">
+                    </div>
+                    <div class="Full-logo">
+                        <h1>Power<span>2</span>Create</h1>
+
+                    </div>
+                </div>
+-->
+                <header>
+                    <div class=" .d-inline-block col-md-12">
+                        <nav class="navbar navbar-expand-lg py-3  ba-light ">
+                            <div class="logo">
+                                <a href="" class="navbar-brand h1"><img class="mr-2 " src="img/quote.png">
+                                    <strong class="full.logo">Power<span>2</span>Create</strong>
+
+                                </a>
+                            </div>
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div id="mynavbar" class="collapse navbar-collapse">
+                                <div class="button-div">
+                                    <button class="nav-item " onclick=""><strong>Company</strong>
+
+                                    </button>
+                                    <button class="nav-item  " onclick=""><strong>Services</strong>
+
+                                    </button>
+                                    <button onclick=""><strong>Blogs</strong></button>
+                                    <button onclick=""><strong>Contact Us</strong></button>
+                                </div>
+
+                                <!--
+                                <ul class="navbar-nav  ">
+                                    <li class="nav-item "><a href="" class="nav-link">Company</a>
+
+                                    </li>
+                                    <li class="nav-item"><a href="">Services</a>
+
+                                    </li>
+                                    <li class="nav-item"><a href="" class="nav-link">Blogs</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+
+
+
+                                </ul>
+-->
+
+                                <div class="button_slide slide_right"><strong>Get a Free Quote</strong></div>
+                            </div>
+
+
+                        </nav>
+                    </div>
+                </header>
+                <!--
+                <header class="nav-bar">
+
+                    <nav class="navbar ">
+                        <div class="button-div">
+                            <button onclick=""><strong>Company</strong></button>
+                            <button onclick=""><strong>Services</strong></button>
+                            <button onclick=""><strong>Blogs</strong></button>
+                            <button onclick=""><strong>Contact Us</strong></button>
+                        </div>
+
+
+                        <div class="button_slide slide_right"><strong>Get a Free Quote</strong></div>
+                    </nav>
+                </header>
+-->
+                <button type="button" data-toggle="C2-Container" data-target="#C-2" aria-expanded="false" aria-controls="C-2" class="scroll-button">Scroll down</button>
+            </div>
+            <div class="mySlides ">
+
+                <img src='img/gif-1920x1080-web&app.gif' style='width: 100%;' alt="sally lightfoot crab" />
+                <a class="prev text-link" onclick='plusSlides(-1)'><strong>Fundraising<br> & Valuation</strong> </a>
+                <a class="next text-link" onclick='plusSlides(1)'><strong>Idea Identification <br> & Assessment </strong></a>
+
+            </div>
+
+            <div class="mySlides ">
+
+                <img src='img/gif-idea.gif' style='width: 100%;' alt="fighting nazca boobies" />
+                <a class="prev text-link" onclick='plusSlides(-1)'><strong>Web<br> & App</strong> </a>
+                <a class="next text-link" onclick='plusSlides(1)'><strong>Business <br>Planning</strong></a>
+
+            </div>
+
+            <div class="mySlides ">
+
+                <img src='img/gif-business-planning.gif' style='width: 100%;' alt="otovalo waterfall" />
+                <a class="prev text-link" onclick='plusSlides(-1)'><strong>Idea Identification<br> & Assessment</strong></a>
+                <a class="next text-link" onclick='plusSlides(1)'><strong>Buliding a Legal <br>Foundation</strong></a>
+
+            </div>
+
+            <div class="mySlides ">
+
+                <img src='img/gif-legal.gif' style='width: 100%;' alt="pelican" />
+                <a class="prev text-link" onclick='plusSlides(-1)'><strong>Business <br>Planning</strong></a>
+                <a class="next text-link" onclick='plusSlides(1)'><strong>Fundraising <br> & Valuation</strong> </a>
+
+            </div>
+            <div class="mySlides ">
+
+                <img src='img/gif-fundraiser.gif' style='width: 100%;' alt="pelican" />
+                <a class="prev text-link" onclick='plusSlides(-1)'><strong>Buliding a Legal<br> Foundation</strong> </a>
+                <a class="next text-link" onclick='plusSlides(1)'><strong>Web <br>& App </strong></a>
+
+            </div>
+            <div class="side-lines">
+                <div class="vl-line vline">
+
+                </div>
+                <div class="vr-line vline">
+
+                </div>
+            </div>
+
+
+
+
+            <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+            <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+
+            <br />
+
+
+            <div class="dot-div" style='text-align: center;'>
+                <span class="dot" onclick='currentSlide(1)'></span>
+                <span class="dot" onclick='currentSlide(2)'></span>
+                <span class="dot" onclick='currentSlide(3)'></span>
+                <span class="dot" onclick='currentSlide(4)'></span>
+                <span class="dot" onclick='currentSlide(5)'></span>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var slideIndex = 1;
+
+        var myTimer;
+
+        var slideshowContainer;
+
+        window.addEventListener("load", function() {
+            showSlides(slideIndex);
+            myTimer = setInterval(function() {
+                plusSlides(1)
+            }, 4000);
+
+            slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
+
+            slideshowContainer.addEventListener('mouseenter', pause)
+            slideshowContainer.addEventListener('mouseleave', resume)
+        })
+
+
+        function plusSlides(n) {
+            clearInterval(myTimer);
+            if (n < 0) {
+                showSlides(slideIndex -= 1);
+            } else {
+                showSlides(slideIndex += 1);
+            }
+
+
+            if (n === -1) {
+                myTimer = setInterval(function() {
+                    plusSlides(n + 2)
+                }, 4000);
+            } else {
+                myTimer = setInterval(function() {
+                    plusSlides(n + 1)
+                }, 4000);
+            }
+        }
+
+        function currentSlide(n) {
+            clearInterval(myTimer);
+            myTimer = setInterval(function() {
+                plusSlides(n + 1)
+            }, 4000);
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        pause = () => {
+            clearInterval(myTimer);
+        }
+
+        resume = () => {
+            clearInterval(myTimer);
+            myTimer = setInterval(function() {
+                plusSlides(slideIndex)
+            }, 4000);
+        }
+
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <div id="C-2" class="C2-Container">
+        <h1>2nd Container</h1>
+    </div>
+</body>
+
+</html>
