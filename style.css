@@ -1,6 +1,7 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -35,23 +36,10 @@ body {
 
 
 
-.container {
-    height: 100vh;
-}
+
 
 .slideshow-inner {
-    margin: 0;
-    padding: 0;
-    /*    height: 80%;*/
     position: absolute
-}
-
-#mynavbar .navbar {
-    /*
-    margin-right: 0px;
-    position: absolute;
-*/
-
 }
 
 .navbar-toggler-icon {
@@ -134,12 +122,8 @@ body {
 
 
 .slideshow-container {
-    height: 100vh;
-    width: 100vh;
-
-    /*    position: absolute;*/
-    margin: 0;
-    padding: 0;
+    height: 100%;
+    width: 100%;
     top: 0;
     right: 0;
     left: 0;
@@ -347,10 +331,8 @@ body {
 
 .C2-Container {
     width: 100%;
-    height: 762px;
+    height: 100%;
     border: 2px solid red;
-    top: 762px;
-    position: absolute;
     background: rgb(232, 113, 95, 0.5);
 }
 
