@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/*Spinner*/
 .loader {
     position: fixed;
     z-index: 99;
@@ -34,12 +34,28 @@
     }
 }
 
+/*Container1*/
 
+.slideshow-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
 
-
+}
 
 .slideshow-inner {
-    position: absolute
+    position: absolute;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
 }
 
 .navbar-toggler-icon {
@@ -100,9 +116,7 @@
     cursor: pointer;
     height: 2px;
     width: 20px;
-
     background-color: #bbb;
-
     display: inline-block;
     transition: background-color .6s ease;
 }
@@ -110,37 +124,6 @@
 .active,
 .dot:hover {
     background-color: #717171
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
-.slideshow-container {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    display: flex;
-
-}
-
-
-.slideshow-inner {
-    max-height: 100vh;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    right: 0;
-    left: 0;
-    display: flex;
 }
 
 .shade {
@@ -357,11 +340,10 @@ body {
     font-size: 0.75rem;
     font-family: sans-serif;
     font-weight: 550;
-    /*
     transform: rotate(90deg);
     margin-left: -80px;
     margin-bottom: 150px;
-*/
+
     /*    transition: transform 1s linear;*/
     display: inline-block;
     text-decoration: none;
@@ -417,16 +399,16 @@ body {
     margin-bottom: 0px;
     transition: 1s;
     animation: pos 1s infinite;
-
 }
 */
 
 .Scroll-div a:hover {
-    animation: pos 2s ease-in-out;
-    transition-delay: 1s;
+    animation: pos 5s ease-in-out;
+    transition-delay: 5s;
     /*    transition-duration: infinite;*/
 }
 
+/*
 @keyframes pos {
     0% {
         transform: rotate(90deg);
@@ -434,7 +416,7 @@ body {
         margin-bottom: 150px;
     }
 
-    /*
+
     20% {
         transform: rotate(70deg);
         margin-left: -66.7px;
@@ -457,7 +439,7 @@ body {
         transform: rotate(15deg);
         margin-left: -26.8px;
         margin-bottom: 30px;
-    }*/
+    }
 
     100% {
         transform: rotate(0deg);
@@ -466,4 +448,31 @@ body {
     }
 
 
+}
+*/
+
+@keyframes pos {
+    0% {
+        transform: rotate(90deg);
+        margin-left: -80px;
+        margin-bottom: 150px;
+    }
+
+    25% {
+        transform: rotate(0deg);
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    75% {
+        transform: rotate(45deg);
+        margin-left: -40px;
+        margin-bottom: 750px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        margin-left: -80px;
+        margin-bottom: 150px;
+    }
 }
