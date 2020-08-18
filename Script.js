@@ -3,6 +3,11 @@ var slideIndex = 1;
 var myTimer;
 
 var slideshowContainer;
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    console.log(loader);
+    loader.className += " hidden";
+});
 
 window.addEventListener("load", function () {
     showSlides(slideIndex);
