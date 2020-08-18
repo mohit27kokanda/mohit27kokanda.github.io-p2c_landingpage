@@ -75,6 +75,8 @@ body {
 .navbar .logo {
     position: absolute;
     top: 70px;
+    z-index: 90;
+
 }
 
 .logo strong {
@@ -165,7 +167,8 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.15);
+
 }
 
 .prev,
@@ -236,7 +239,7 @@ body {
 
 
 .vl-line {
-    1b7e0d5ef15a80bd3b271ae0216407d12a79e4cd border-left: 2px solid rgb(91, 91, 113, 0.7);
+    border-left: 2px solid rgb(91, 91, 113, 0.7);
     height: 100vh;
     position: absolute;
     left: 30px;
@@ -248,7 +251,7 @@ body {
     height: 100vh;
     bottom: 0;
     position: absolute;
-    right: 4%;
+    right: 3%;
     top: 0;
 
 }
@@ -256,7 +259,7 @@ body {
 .navbar .button_slide {
 
     position: absolute;
-    right: 4%;
+    right: 3%;
     top: 85px;
 
     font-weight: 500;
@@ -349,3 +352,35 @@ body {
     top: 762px;
     position: absolute;
     background: rgb(232, 113, 95, 0.5);
+}
+
+.Scroll-div {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.Scroll-div > .btn-scroll {
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-weight: 300;
+    transform: rotate(90deg);
+    margin-right: 100px;
+    margin-bottom: 150px;
+    transition: transform 1s linear;
+    width: 100%;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: transparent;
+
+}
+
+.Scroll-div .btn-scroll :hover {
+    transform: rotate(0deg);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    transition: 0.4s;
+
+}
