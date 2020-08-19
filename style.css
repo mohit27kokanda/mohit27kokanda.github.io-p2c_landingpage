@@ -181,7 +181,7 @@
     width: 13%;
     /*            height: 2%;*/
     display: inline-flex;
-    top: 90%;
+    top: 95%;
 
 
 }
@@ -214,11 +214,11 @@
 }
 
 .vr-line {
-    border-left: 1.5px solid rgb(91, 91, 113, 0.7);
+    border-left: 2px solid rgb(91, 91, 113, 0.7);
     height: 100vh;
     bottom: 0;
     position: absolute;
-    right: 3%;
+    right: 45px;
     top: 0;
 
 }
@@ -282,16 +282,56 @@
 
 }
 
+/*
 .scroll-button {
     bottom: 0;
     text-decoration: none;
     margin-left: 10px;
 
-    /*        transform: rotate(90deg);*/
+            transform: rotate(90deg);
     justify-content: end;
     border: 2px solid black;
-    height: 100%;
+    height: 100px;
     width: 80px;
+}
+*/
+.Scroll-div {
+    /*    border: 2px solid black;*/
+    width: 150px;
+    height: 150px;
+    bottom: 40px;
+    left: 20px;
+    /*    padding-bottom: 30px;*/
+    font-size: .8rem;
+    font-weight: 500;
+    /*    right: 400px;*/
+    display: flex;
+    justify-content: left;
+    transform: rotate(90deg);
+    align-items: flex-end;
+    /*    border: 2px solid black;*/
+    position: absolute;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 1s, align-items 3s, justify-content 3s;
+}
+
+.Scroll-div:hover {
+    transform: rotate(0deg);
+    /*
+    width: 120px;
+    height: 210px;
+*/
+    display: flex;
+    /*
+    left: 0px;
+    bottom: 40px;
+*/
+    padding-bottom: 0px;
+    align-items: flex-end;
+    justify-content: left;
+    position: absolute;
+
+
 }
 
 
@@ -323,19 +363,23 @@
 
 }
 
+/*
 .Scroll-div {
 
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /*    border: 2px solid black;*/
+    border: 2px solid black;
     position: absolute;
     width: 10%;
     height: 100%;
-    position: absolute;
+
+
 
 }
+*/
 
+/*
 .Scroll-div a {
     font-size: 0.75rem;
     font-family: sans-serif;
@@ -344,29 +388,35 @@
     margin-left: -80px;
     margin-bottom: 150px;
 
-    /*    transition: transform 1s linear;*/
+        transition: transform 1s linear;
     display: inline-block;
     text-decoration: none;
     outline: none;
     border: none;
     display: flex;
-
+    transition: margin-left 2s, margin-bottom 2s, transform 2s;
 
 
 
 }
+*/
 
 .vertical-small-line {
-    /*    border-left: 2px solid black;*/
+
     display: flex;
     /*    border: .5px solid black;*/
-    width: 2px;
-    justify-content: center;
+    width: 5px;
+    height: 110%;
+    justify-content: flex-end;
     align-items: flex-end;
     transform: rotate(0deg);
     height: 20%;
+    bottom: 3px;
+    left: 22px;
+    /*
     margin-bottom: 0px;
     margin-left: -100px;
+*/
     position: absolute;
     box-shadow: inset 0 -30px 0 0 rgb(91, 91, 113, 0.7);
     -webkit-transition: ease-out 0.4s;
@@ -378,18 +428,59 @@
 .vertical-small-line:hover {
 
     animation: up-down 1s ease-in-out;
-    transition-delay: 0.5s;
+    transition-delay: 0s;
+    animation-iteration-count: 4;
 }
+
+/*
+.vertical-small-line hr {
+    box-shadow: inset 0 -10px 0 0 rgb(91, 91, 113, 0.7);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    cursor: pointer;
+    display: flex;
+
+    width: 4px;
+    height: 110%;
+    z-index: 1;
+
+    transform: rotate(0deg);
+    height: 20%;
+    bottom: 3px;
+    left: 22px;
+
+}
+
+.Scroll-div:hover hr {
+    animation: up-down 1s ease-in-out;
+    transition-delay: 0s;
+    animation-iteration-count: 4;
+}
+*/
 
 @keyframes up-down {
 
-    0% 100% {
+    0% {
         box-shadow: inset 0 -40px 0 0 rgb(91, 91, 113, 0.7);
     }
 
-    50% {
+    25% {
         box-shadow: inset 0 -200px 0 0 rgb(91, 91, 113, 0.7);
     }
+
+    50% {
+        box-shadow: inset 0 -100px 0 0 rgb(91, 91, 113, 0.7);
+    }
+
+    75% {
+        box-shadow: inset 0 -75px 0 0 rgb(91, 91, 113, 0.7);
+    }
+
+    100% {
+        box-shadow: inset 0 -40px 0 0 rgb(91, 91, 113, 0.7);
+    }
+
 }
 
 /*
@@ -400,13 +491,19 @@
     transition: 1s;
     animation: pos 1s infinite;
 }
-*/
 
+
+    /*
 .Scroll-div a:hover {
     animation: pos 5s ease-in-out;
     transition-delay: 5s;
-    /*    transition-duration: infinite;*/
+    transform: rotate(0deg);
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+        transition-duration: infinite;
 }
+*/
 
 /*
 @keyframes pos {
@@ -451,6 +548,7 @@
 }
 */
 
+/*
 @keyframes pos {
     0% {
         transform: rotate(90deg);
@@ -476,3 +574,4 @@
         margin-bottom: 150px;
     }
 }
+*/
