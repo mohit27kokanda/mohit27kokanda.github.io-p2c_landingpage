@@ -443,17 +443,8 @@
     }
 
 }
-/* .right-col{
-    border: 1px solid rgb(222,222,222);
-    height: auto;
-    width: 50%;
-    /* justify-content: left; */
-    /* display: inl;
-    align-content: right; */
-    /* right: 0%;
-    position: absolute; */
-    /* width: 100vh; */
-}
+
+
 /* .each-box{
     border: 1px solid rgb(222,222,222);
     height: 47vh;
@@ -469,7 +460,7 @@
     
     /* align-content: center; */
     /* display: inline-block; */
-}
+
 /* .box:hover{
     
     background-color:rgb(222,222,222,.7) ;
@@ -483,7 +474,7 @@
         -moz-transition: ease-out 0.4s;
         transition: ease-out 0.4s; */
     /* letter-spacing: 1px; */
-}
+
 
 /* .company-tag-text{
     position: absolute;
@@ -495,7 +486,7 @@
     left: 20%; */
     /* font-family: sans-serif; */
     
-} */
+
 /* .number-text{
     position: absolute;
     top:30%;
@@ -543,7 +534,7 @@
     /* display: flex;
     padding: 0px;
     opacity: 0; */ */
-}
+
 /* .rec{
     border: 2px solid black;
     height: 28%;
@@ -554,7 +545,7 @@
     /* display: none; */
     /* position: absolute; */
     
-}
+
 /* .rec-1{
     position: absolute;
     /* top: 20%; */
@@ -568,7 +559,7 @@
     
 
 
-} */
+
 /* .rec-2{
     position: absolute;
     top: 1%;
@@ -579,7 +570,7 @@
     
 
 
-} */
+
 /* .rec-3{
     position: absolute;
     top: 15%;
@@ -703,7 +694,7 @@
     color: rgb(184, 180, 180);
 }
 .No-3{
-    margin-top: 40px;
+    margin-top:30px;
 }
 #right-colms >number{
     text-decoration: none;
@@ -725,14 +716,14 @@
     
     position: absolute;
     right: 49%;
-    top:105%;
+    top:102%;
     
 }
 .boxes-1 >.a-1{
     background-color: rgb(103,103,103);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left: 50px;
     top: 100px;
 }
@@ -740,7 +731,7 @@
     background-color: rgb(196,196,196);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:250px ;
     
 }
@@ -748,7 +739,7 @@
     background-color: rgb(238,238,238);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:350px ;
     top:200px;
 }
@@ -757,14 +748,14 @@
     
     position: absolute;
     right: 49%;
-    top:135%;
+    top:125%;
     
 }
 .boxes-2 >.b-1{
     background-color: rgb(103,103,103);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left: 50px;
     top: 100px;
 }
@@ -772,7 +763,7 @@
     background-color: rgb(196,196,196);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:250px ;
     
 }
@@ -780,7 +771,7 @@
     background-color: rgb(238,238,238);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:350px ;
     top:200px;
 }
@@ -796,7 +787,7 @@
     background-color: rgb(103,103,103);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left: 50px;
     top: 100px;
 }
@@ -804,7 +795,7 @@
     background-color: rgb(196,196,196);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:250px ;
     
 }
@@ -812,7 +803,7 @@
     background-color: rgb(238,238,238);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:350px ;
     top:200px;
 }
@@ -821,14 +812,14 @@
     
     position: absolute;
     right: 49%;
-    top:225%;
+    top:205%;
     
 }
 .boxes-4 >.d-1{
     background-color: rgb(103,103,103);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left: 50px;
     top: 100px;
 }
@@ -836,7 +827,7 @@
     background-color: rgb(196,196,196);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:250px ;
     
 }
@@ -844,7 +835,7 @@
     background-color: rgb(238,238,238);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:350px ;
     top:200px;
 }
@@ -852,14 +843,14 @@
     
     position: absolute;
     right: 49%;
-    top:265%;
+    top:255%;
     
 }
 .boxes-5 >.e-1{
     background-color: rgb(103,103,103);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left: 50px;
     top: 100px;
 }
@@ -867,7 +858,7 @@
     background-color: rgb(196,196,196);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:250px ;
     
 }
@@ -875,7 +866,7 @@
     background-color: rgb(238,238,238);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:350px ;
     top:200px;
 }
@@ -884,14 +875,14 @@
     
     position: absolute;
     right: 49%;
-    top:315%;
+    top:295%;
     
 }
 .boxes-6 >.f-1{
     background-color: rgb(103,103,103);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left: 50px;
     top: 100px;
 }
@@ -899,7 +890,7 @@
     background-color: rgb(196,196,196);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:250px ;
     
 }
@@ -907,7 +898,7 @@
     background-color: rgb(238,238,238);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:350px ;
     top:200px;
 }
@@ -916,14 +907,14 @@
     
     position: absolute;
     right: 49%;
-    top:355%;
+    top:345%;
     
 }
 .boxes-7 >.g-1{
     background-color: rgb(103,103,103);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left: 50px;
     top: 100px;
 }
@@ -931,7 +922,7 @@
     background-color: rgb(196,196,196);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:250px ;
     
 }
@@ -939,7 +930,7 @@
     background-color: rgb(238,238,238);
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 550px;
     left:350px ;
     top:200px;
 }
