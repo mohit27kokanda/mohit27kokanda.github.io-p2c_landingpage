@@ -74,6 +74,29 @@
     background-color: rgba(0, 0, 0, 0.15);
 
 }
+.navbar-toggler{
+    position: absolute;
+    top: 70px;
+    right: 41px;
+    outline: none !important;
+}
+.navbar-toggler-icon{
+    display: block !important;
+    width: 30px !important;
+    background: #151719;
+    height: 5px !important;
+    margin: 5px 0px !important;
+
+}
+.show-hover{
+    display: none;
+}
+.logo:hover .show{
+    display: none;
+}
+.logo:hover .show-hover{
+    display: inline-block;
+}
 
 .im .navbar {
     border: 2px solid black;
@@ -935,5 +958,9 @@
     height: 550px;
     left:350px ;
     top:200px;
+}
+.image-design-none{
+    display: none;
+    
 }
 

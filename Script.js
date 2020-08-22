@@ -80,3 +80,11 @@ resume = () => {
         plusSlides(slideIndex)
     }, 4000);
 }
+function toggl(){
+var data=document.querySelectorAll(".image-design");
+data[0].classList.toggle('image-design-none')
+data[1].classList.toggle('image-design-none')
+data[2].classList.toggle('image-design-none')
+data[3].classList.toggle('image-design-none')
+data[4].classList.toggle('image-design-none')
+}
