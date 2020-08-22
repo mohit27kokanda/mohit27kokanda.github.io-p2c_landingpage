@@ -615,7 +615,7 @@
     display: list-item;
 
     width: 750px;
-    height: 350px;
+    height: 400px;
     border: 1px solid rgb(222, 222, 222);
     text-align: center;
 
@@ -676,7 +676,7 @@
     align-items: center;
     float: left;
     margin-left: 150px;
-    margin-top: 20%;
+    margin-top: 22%;
      font-family: sans-serif;
 }
 .number-text{
@@ -694,7 +694,7 @@
     color: rgb(184, 180, 180);
 }
 .No-3{
-    margin-top:30px;
+    margin-top:38px;
 }
 #right-colms >number{
     text-decoration: none;
@@ -716,7 +716,7 @@
     
     position: absolute;
     right: 49%;
-    top:102%;
+    top:101%;
     
 }
 .boxes-1 >.a-1{
@@ -780,7 +780,7 @@
     
     position: absolute;
     right: 49%;
-    top:175%;
+    top:185%;
     
 }
 .boxes-3 >.c-1{
@@ -812,7 +812,7 @@
     
     position: absolute;
     right: 49%;
-    top:205%;
+    top:235%;
     
 }
 .boxes-4 >.d-1{
@@ -843,7 +843,7 @@
     
     position: absolute;
     right: 49%;
-    top:255%;
+    top:285%;
     
 }
 .boxes-5 >.e-1{
@@ -875,7 +875,7 @@
     
     position: absolute;
     right: 49%;
-    top:295%;
+    top:335%;
     
 }
 .boxes-6 >.f-1{
@@ -907,7 +907,7 @@
     
     position: absolute;
     right: 49%;
-    top:345%;
+    top:390%;
     
 }
 .boxes-7 >.g-1{
