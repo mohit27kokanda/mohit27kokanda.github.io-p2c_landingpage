@@ -87,4 +87,6 @@ data[1].classList.toggle('image-design-none')
 data[2].classList.toggle('image-design-none')
 data[3].classList.toggle('image-design-none')
 data[4].classList.toggle('image-design-none')
+var dat=document.querySelector(".slideshow-container");
+dat.classList.toggle('slideshow-container-nav')
 }
