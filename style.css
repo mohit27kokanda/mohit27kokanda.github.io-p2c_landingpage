@@ -74,6 +74,32 @@
     background-color: rgba(0, 0, 0, 0.15);
 
 }
+.toggle-bt{
+    position: absolute;
+    left: 250px;
+    padding-top: 20px;
+    width: 800px;
+    background-color: black;
+}
+.toggle-bt span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.show-hover{
+    display: none;
+}
+.logo:hover .show{
+    display: none;
+}
+.logo:hover .show-hover{
+    display: inline-block;
+}
 
 .im .navbar {
     border: 2px solid black;
