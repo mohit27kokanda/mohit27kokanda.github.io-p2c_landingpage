@@ -592,10 +592,11 @@
 } */ */
 
 .Conatiner-2 {
-    border: 2px solid red;
+    
     position: absolute;
     margin: 0;
     padding: 0;
+    height: 100%;
 
     /*            height: auto;*/
 }
@@ -908,6 +909,7 @@
     position: absolute;
     right: 49%;
     top:390%;
+    display:  block;
     
 }
 .boxes-7 >.g-1{
