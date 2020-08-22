@@ -49,7 +49,7 @@
     left: 0;
     bottom: 0;
     display: flex;
-    background:#FFDAB9;
+    background:white;
 
 }
 
@@ -962,7 +962,7 @@
     display: none;
 }
 .slideshow-container-nav{
-    background-color: white;
+    background-color:#FFDAB9;
     width: 100%;
     height: 100%;
     transition-property: width, height,background-color;
