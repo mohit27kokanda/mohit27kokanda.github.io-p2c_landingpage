@@ -74,22 +74,19 @@
     background-color: rgba(0, 0, 0, 0.15);
 
 }
-.toggle-bt{
+.navbar-toggler{
     position: absolute;
-    left: 250px;
-    padding-top: 20px;
-    width: 800px;
-    background-color: black;
+    top: 70px;
+    right: 41px;
+    outline: none !important;
 }
-.toggle-bt span{
-    display: block;
-    width: 30px;
-    height: 5px;
+.navbar-toggler-icon{
+    display: block !important;
+    width: 30px !important;
     background: #151719;
-    margin: 5px 0px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+    height: 5px !important;
+    margin: 5px 0px !important;
+
 }
 .show-hover{
     display: none;
@@ -959,5 +956,9 @@
     height: 550px;
     left:350px ;
     top:200px;
+}
+.image-design-none{
+    display: none;
+    
 }
 
