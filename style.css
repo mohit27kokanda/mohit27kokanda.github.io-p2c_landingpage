@@ -1029,17 +1029,19 @@
     left:350px ;
     top:200px;
 }
-.image-design-none{
-    display: none;
-}
-.slideshow-container-nav{
-    background-color:#FFDAB9;
-    width: 100%;
-    height: 100%;
-    transition-property: width, height,background-color;
-    transition-duration: 5s;
-}
+
+
 @media(max-width:986px){
+    .image-design-none{
+        display: none;
+    }
+    .slideshow-container-nav{
+        background-color:#FFDAB9;
+        width: 100%;
+        height: 100%;
+        transition-property: width, height,background-color;
+        transition-duration: 5s;
+    }
     .navbar .button_slide {
     font-weight: 500;
     cursor: pointer;
@@ -1047,5 +1049,6 @@
     padding: 5px 0;
     margin: 30px auto;
 }
+
 }
 
