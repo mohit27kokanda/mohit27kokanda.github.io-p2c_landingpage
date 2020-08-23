@@ -1,3 +1,9 @@
+window.sr = ScrollReveal();
+sr.reveal('.navbar', {
+    duration: 3000,
+    origin:'top',
+    distance:'300px'
+  });
 var slideIndex = 1;
 
 var myTimer;
