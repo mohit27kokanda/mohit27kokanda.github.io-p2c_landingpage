@@ -632,6 +632,14 @@
     -webkit-transition: ease-out 0.4s;
         -moz-transition: ease-out 0.4s;
         transition: ease-out 0.4s;
+        animation-name: video-vissible;
+        animation-duration: 2s;
+}
+@keyframes video-vissible{
+    
+    100%{
+        opacity: 1;
+    }
 }
 
 
@@ -755,7 +763,7 @@
     /* background-color: #000000; */
     /* text-align: center; */
 
-    width:70%;
+    width:57%;
     height: auto;
    
     /* padding: 10px; */
@@ -765,251 +773,923 @@
     position: absolute;
     right: 43%;
     top:101%;
-    border: 2px solid black;
-    width: 550px;
+    /* border: 2px solid black; */
+    width: 250px;
     height: 650px;
     box-sizing: content-box;
 
     
 }
 .boxes-1 > video{
-    width: 750px;
-    height: 650px;
+    width: 860px;
+    height: 750px;
+    left: 100px;
+    box-shadow: 
+       inset 0 -3em 3em rgb(85,130,158,1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgb(85,130,158,1);
+    box-shadow: rgb(85,130,158);
+
 }
 .boxes-1 >.a-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
             rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left: 300px;
+    left: 100px;
     top: 100px;
+    animation-name: Box-1;
+    animation-duration: 20s;
+   
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    /* transition-delay: 5s; */
+}
+@keyframes Box-1{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-1 >.a-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
             rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
     left:280px ;
     top: 0px;
+    animation-name: Box-1;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-1{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
     
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-1 >.a-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
             rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:350px ;
+    left:390px ;
     top:200px;
+    animation-name: Box-1;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-1{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 
 .boxes-2 {
-    
-    position: absolute;
-    right: 49%;
     top:125%;
+    right: 43%;
+    width: 250px;
+    height: 650px;
+    position: absolute;
     
+}
+.boxes-2 > video{
+    width: 860px;
+    height: 750px;
+    left: 100px;
+
 }
 .boxes-2 >.b-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
             rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left: 50px;
+    left: 100px;
     top: 100px;
+    animation-name: Box-2;
+    animation-duration: 20s;
+   
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    /* transition-delay: 5s; */
+}
+@keyframes Box-2{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-2 >.b-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
             rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:250px ;
+    left:280px ;
+    top: 0px;
+    animation-name: Box-2;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-2{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
     
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-2 >.b-3{
     background-image: linear-gradient(115deg,
-    rgba(222,222,222,.3),
-    rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:350px ;
+    left:390px ;
     top:200px;
+    animation-name: Box-2;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-2{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 
 .boxes-3 {
     
+    right: 43%;
+    width: 250px;
+    height: 650px;
     position: absolute;
-    right: 49%;
     top:185%;
     
 }
+.boxes-3 > video{
+    width: 860px;
+    height: 750px;
+    left: 100px;
+
+}
 .boxes-3 >.c-1{
-    background-color: rgb(103,103,103);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left: 50px;
+    left: 100px;
     top: 100px;
+    animation-name: Box-3;
+    animation-duration: 20s;
+   
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    /* transition-delay: 5s; */
+}
+@keyframes Box-3{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-3 >.c-2{
-    background-color: rgb(196,196,196);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:250px ;
+    left:280px ;
+    top: 0px;
+    animation-name: Box-3;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-3{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
     
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-3 >.c-3{
-    background-color: rgb(238,238,238);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:350px ;
+    left:390px ;
     top:200px;
+    animation-name: Box-3;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
 }
-
+@keyframes Box-3{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+}
 .boxes-4 {
     
+    right: 43%;
+    width: 250px;
+    height: 650px;
     position: absolute;
-    right: 49%;
     top:235%;
     
+}
+.boxes-4 > video{
+    width: 860px;
+    height: 750px;
+    left: 100px;
+
 }
 .boxes-4 >.d-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
             rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left: 50px;
+    left: 100px;
     top: 100px;
+    animation-name: Box-4;
+    animation-duration: 20s;
+   
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    /* transition-delay: 5s; */
+}
+@keyframes Box-4{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-4 >.d-2{
     background-image: linear-gradient(115deg,
-    rgba(222,222,222,.3),
-    rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:250px ;
+    left:280px ;
+    top: 0px;
+    animation-name: Box-4;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-4{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
     
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-4 >.d-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
             rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:350px ;
+    left:390px ;
     top:200px;
+    animation-name: Box-4;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-4{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-5 {
     
+    right: 43%;
+    width: 250px;
+    height: 650px;
     position: absolute;
-    right: 49%;
     top:285%;
     
 }
+.boxes-5 > video{
+    width: 860px;
+    height: 750px;
+    left: 100px;
+
+}
 .boxes-5 >.e-1{
-    background-color: rgb(103,103,103);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left: 50px;
+    left: 100px;
     top: 100px;
+    animation-name: Box-5;
+    animation-duration: 20s;
+   
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    /* transition-delay: 5s; */
+}
+@keyframes Box-5{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-5 >.e-2{
-    background-color: rgb(196,196,196);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:250px ;
+    left:280px ;
+    top: 0px;
+    animation-name: Box-5;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-5{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
     
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-5 >.e-3{
-    background-color: rgb(238,238,238);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:350px ;
+    left:390px ;
     top:200px;
+    animation-name: Box-5;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-5{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 
 .boxes-6 {
     
+    right: 43%;
+    width: 250px;
+    height: 650px;
     position: absolute;
-    right: 49%;
     top:335%;
     
 }
+.boxes-6 > video{
+    width: 860px;
+    height: 750px;
+    left: 100px;
+
+}
 .boxes-6 >.f-1{
-    background-color: rgb(103,103,103);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left: 50px;
+    left: 100px;
     top: 100px;
+    animation-name: Box-6;
+    animation-duration: 20s;
+   
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    /* transition-delay: 5s; */
+}
+@keyframes Box-6{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-6 >.f-2{
-    background-color: rgb(196,196,196);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:250px ;
+    left:280px ;
+    top: 0px;
+    animation-name: Box-6;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-6{
+    0%{
+        opacity: 1;
+    }
     
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-6 >.f-3{
-    background-color: rgb(238,238,238);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:350px ;
+    left:390px ;
     top:200px;
+    animation-name: Box-6;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-6{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 
 .boxes-7 {
     
+    right: 43%;
+    width: 250px;
+    height: 650px;
     position: absolute;
-    right: 49%;
     top:390%;
     display:  block;
     
 }
+.boxes-7 > video{
+    width: 860px;
+    height: 750px;
+    left: 100px;
+
+}
 .boxes-7 >.g-1{
-    background-color: rgb(103,103,103);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left: 50px;
+    left: 100px;
     top: 100px;
+    animation-name: Box-7;
+    animation-duration: 20s;
+   
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    /* transition-delay: 5s; */
+}
+@keyframes Box-7{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-7 >.g-2{
-    background-color: rgb(196,196,196);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:250px ;
+    left:280px ;
+    top: 0px;
+    animation-name: Box-7;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-7{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
     
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 .boxes-7 >.g-3{
-    background-color: rgb(238,238,238);
+    background-image: linear-gradient(115deg,
+            rgba(222,222,222,.3),
+            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
     position: absolute;
-    width: 300px;
+    width: 310px;
     height: 550px;
-    left:350px ;
+    left:390px ;
     top:200px;
+    animation-name: Box-7;
+    animation-duration: 20s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 2s; */
+    transition-delay: 5s;
+}
+@keyframes Box-7{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+        transition-delay: 5s;
+    }
+   
+        20%{
+            opacity: 0;
+            transition-delay: 5s;
+        }
+    
+    50%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
+    100%{
+        opacity: 0;
+        transition-delay: 5s;
+    }
 }
 
 
