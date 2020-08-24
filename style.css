@@ -668,8 +668,8 @@
     justify-items: center;
     align-items: center;
     float: left;
-    margin-left: 150px;
-    margin-top: 22%;
+    margin-left: 100px;
+    margin-top: 27%;
      font-family: sans-serif;
 }
 .number-text{
@@ -752,6 +752,9 @@
 .No-3{
     margin-top:38px;
 }
+.No-5{
+    margin-top:50px ;
+}
 #right-colms >number{
     text-decoration: none;
     list-style: none;
@@ -788,13 +791,13 @@
        inset 0 -3em 3em rgb(85,130,158,1), 
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgb(85,130,158,1);
-    box-shadow: rgb(85,130,158);
+            
 
 }
 .boxes-1 >.a-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-1.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -919,7 +922,11 @@
     width: 860px;
     height: 750px;
     left: 100px;
-
+    box-shadow: 
+       inset 0 -3em 3em rgb(85,130,158,1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgb(85,130,158,1);
+             background-color: rgb(85,130,158,.5);
 }
 .boxes-2 >.b-1{
     background-image: linear-gradient(115deg,
