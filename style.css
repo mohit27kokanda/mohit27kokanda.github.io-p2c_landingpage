@@ -689,7 +689,7 @@
 .Number-1:hover{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.7),
-            rgba(219, 219, 231, 0.7)), url(/img/web-&-app.jpg);
+            rgba(219, 219, 231, 0.7)), url(img/web-&-app.jpg);
             background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -698,7 +698,7 @@
 .Number-2:hover{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.7),
-            rgba(219, 219, 231, 0.7)), url(/img/Business-Planning.jpg);
+            rgba(219, 219, 231, 0.7)), url(img/Business-Planning.jpg);
             background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -707,7 +707,7 @@
 .Number-3:hover{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.7),
-            rgba(219, 219, 231, 0.7)), url(/img/Idea-Identification.jpg);
+            rgba(219, 219, 231, 0.7)), url(img/Idea-Identification.jpg);
             background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -716,7 +716,7 @@
 .Number-4:hover{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.7),
-            rgba(219, 219, 231, 0.7)), url(/img/Legal-foundation.jpg);
+            rgba(219, 219, 231, 0.7)), url(img/Legal-foundation.jpg);
             background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -725,7 +725,7 @@
 .Number-5:hover{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.7),
-            rgba(219, 219, 231, 0.7)), url(/img/Financial-Basis.jpg);
+            rgba(219, 219, 231, 0.7)), url(img/Financial-Basis.jpg);
             background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -734,7 +734,7 @@
 .Number-6:hover{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.7),
-            rgba(219, 219, 231, 0.7)), url(/img/FundRaising.jpg);
+            rgba(219, 219, 231, 0.7)), url(img/FundRaising.jpg);
             background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -743,7 +743,7 @@
 .Number-7:hover{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.7),
-            rgba(219, 219, 231, 0.7)), url(/img/Term-Sheet.jpg);
+            rgba(219, 219, 231, 0.7)), url(img/Term-Sheet.jpg);
             background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -836,7 +836,7 @@
 .boxes-1 >.a-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-2.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -874,7 +874,7 @@
 .boxes-1 >.a-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-3.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -931,7 +931,7 @@
 .boxes-2 >.b-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-1.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -970,7 +970,7 @@
 .boxes-2 >.b-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-2.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1008,7 +1008,7 @@
 .boxes-2 >.b-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-3.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1062,7 +1062,7 @@
 .boxes-3 >.c-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-1.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1101,7 +1101,7 @@
 .boxes-3 >.c-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-2.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1139,7 +1139,7 @@
 .boxes-3 >.c-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-3.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1192,7 +1192,7 @@
 .boxes-4 >.d-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-1.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1231,7 +1231,7 @@
 .boxes-4 >.d-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-2.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1269,7 +1269,7 @@
 .boxes-4 >.d-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-3.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1322,7 +1322,7 @@
 .boxes-5 >.e-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-1.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1361,7 +1361,7 @@
 .boxes-5 >.e-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-2.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1399,7 +1399,7 @@
 .boxes-5 >.e-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-3.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1453,7 +1453,7 @@
 .boxes-6 >.f-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-1.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1492,7 +1492,7 @@
 .boxes-6 >.f-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-2.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1531,7 +1531,7 @@
 .boxes-6 >.f-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-3.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1586,7 +1586,7 @@
 .boxes-7 >.g-1{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-1.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-1.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1625,7 +1625,7 @@
 .boxes-7 >.g-2{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-2.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-2.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
@@ -1663,7 +1663,7 @@
 .boxes-7 >.g-3{
     background-image: linear-gradient(115deg,
             rgba(222,222,222,.3),
-            rgba(219, 219, 231, 0.4)), url(/img/P-3.jpg);
+            rgba(219, 219, 231, 0.4)), url(img/P-3.jpg);
     position: absolute;
     width: 310px;
     height: 550px;
