@@ -788,7 +788,7 @@
 .boxes-1 > video{
     width: 870px;
     height: 750px;
-    left: 100px;
+    
     border: none;
 
     
@@ -922,7 +922,7 @@
 .boxes-2 > video{
     width: 870px;
     height: 750px;
-    left: 100px;
+    
     /* box-shadow: 
        inset 0 -3em 3em rgb(85,130,158,1), 
              0 0  0 2px rgb(255,255,255),
@@ -1058,7 +1058,7 @@
 .boxes-3 > video{
     width: 870px;
     height: 750px;
-    left: 100px;
+    
 
 }
 .boxes-3 >.c-1{
@@ -1189,7 +1189,7 @@
 .boxes-4 > video{
     width: 870px;
     height: 750px;
-    left: 100px;
+    
 
 }
 .boxes-4 >.d-1{
@@ -1318,7 +1318,7 @@
 .boxes-5 > video{
     width: 870px;
     height: 750px;
-    left: 100px;
+  
 
 }
 .boxes-5 >.e-1{
@@ -1450,7 +1450,7 @@
 .boxes-6 > video{
     width: 870px;
     height: 750px;
-    left: 100px;
+    
 
 }
 .boxes-6 >.f-1{
@@ -1577,14 +1577,13 @@
     width: 250px;
     height: 650px;
     position: absolute;
-
     display:  block;
     
 }
 .boxes-7 > video{
     width: 870px;
     height: 750px;
-    left: 100px;
+    
 
 }
 .boxes-7 >.g-1{
