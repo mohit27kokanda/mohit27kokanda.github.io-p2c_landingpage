@@ -120,9 +120,13 @@
                 </div>
 
             </div>
+
+
+
+
             <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
             <a class="next" onclick='plusSlides(1)'>&#10095;</a>
-            <div class="dot-div" style='text-align: center;'>
+        <div class="dot-div" style='text-align: center;'>
                 <span class="dot" onclick='currentSlide(1)'></span>
                 <span class="dot" onclick='currentSlide(2)'></span>
                 <span class="dot" onclick='currentSlide(3)'></span>
@@ -140,10 +144,18 @@
         </a>
         </div>
     </div>
-    
-      <!-- 2nd Container   -->
-    
-      <div class="Containerfliud">
+
+    <div class="center-div">
+        <div class="cursor cursor--small"></div>
+        <canvas class="cursor cursor--canvas" resize></canvas>
+
+        <nav class="nav">
+            <a href="#" class="link"></a>
+        </nav>
+    </div>
+
+
+    <div class="Containerfliud">
         <div class=" row">
 
             <div class="col-5 right">
@@ -294,6 +306,10 @@
         </div>
 
     </div>
+    
+        
+    
+    
     
     <script src="Script.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
