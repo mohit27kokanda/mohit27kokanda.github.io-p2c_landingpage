@@ -768,7 +768,7 @@
     /* background-color: #000000; */
     /* text-align: center; */
 
-    width:57%;
+    width:870px;
     height: auto;
    
     /* padding: 10px; */
@@ -776,8 +776,8 @@
 .boxes-1{
     
     position: absolute;
-    right: 43%;
-    top:101%;
+    right: 655px;
+    top:765px;
     /* border: 2px solid black; */
     width: 250px;
     height: 650px;
@@ -786,13 +786,12 @@
     
 }
 .boxes-1 > video{
-    width: 860px;
+    width: 870px;
     height: 750px;
     left: 100px;
-    box-shadow: 
-       inset 0 -3em 3em rgb(85,130,158,1), 
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgb(85,130,158,1);
+    border: none;
+
+    
             
 
 }
@@ -913,22 +912,22 @@
 }
 
 .boxes-2 {
-    top:125%;
-    right: 43%;
+    top:1000px;
+    right: 655px;
     width: 250px;
     height: 650px;
     position: absolute;
     
 }
 .boxes-2 > video{
-    width: 860px;
+    width: 870px;
     height: 750px;
     left: 100px;
-    box-shadow: 
+    /* box-shadow: 
        inset 0 -3em 3em rgb(85,130,158,1), 
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgb(85,130,158,1);
-             background-color: rgb(85,130,158,.5);
+             background-color: rgb(85,130,158,.5); */
 }
 .boxes-2 >.b-1{
     background-image: linear-gradient(115deg,
@@ -1047,16 +1046,17 @@
 }
 
 .boxes-3 {
-    
-    right: 43%;
+    top:1400px;
+    right: 655px;
+   
     width: 250px;
     height: 650px;
     position: absolute;
-    top:185%;
+    
     
 }
 .boxes-3 > video{
-    width: 860px;
+    width: 870px;
     height: 750px;
     left: 100px;
 
@@ -1177,16 +1177,17 @@
     }
 }
 .boxes-4 {
+    top:1800px;
+    right: 655px;
     
-    right: 43%;
     width: 250px;
     height: 650px;
     position: absolute;
-    top:235%;
+    
     
 }
 .boxes-4 > video{
-    width: 860px;
+    width: 870px;
     height: 750px;
     left: 100px;
 
@@ -1307,16 +1308,15 @@
     }
 }
 .boxes-5 {
-    
-    right: 43%;
     width: 250px;
     height: 650px;
     position: absolute;
-    top:285%;
+    top:2200px;
+    right: 655px;
     
 }
 .boxes-5 > video{
-    width: 860px;
+    width: 870px;
     height: 750px;
     left: 100px;
 
@@ -1439,15 +1439,16 @@
 
 .boxes-6 {
     
-    right: 43%;
+    top:2600px;
+    right: 655px;
     width: 250px;
     height: 650px;
     position: absolute;
-    top:335%;
+    
     
 }
 .boxes-6 > video{
-    width: 860px;
+    width: 870px;
     height: 750px;
     left: 100px;
 
@@ -1571,16 +1572,17 @@
 
 .boxes-7 {
     
-    right: 43%;
+    top:3000px;
+    right: 655px;
     width: 250px;
     height: 650px;
     position: absolute;
-    top:390%;
+
     display:  block;
     
 }
 .boxes-7 > video{
-    width: 860px;
+    width: 870px;
     height: 750px;
     left: 100px;
 
