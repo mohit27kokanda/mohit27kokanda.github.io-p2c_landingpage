@@ -520,14 +520,11 @@
 
 
 
-body {
-    padding: 0;
-    margin: 0;
-}
 
 .containerfluid {
     width: 100%;
     height: auto;
+    position:relative;
     padding:  0;
     margin:   0;
     left: 0;
@@ -542,6 +539,7 @@ body {
     padding: 0;
     left: 0;
     right: 0;
+    position: relative;
     margin-right: 0px;
 }
 
@@ -619,6 +617,7 @@ align-items: center;
 .right:hover+.left {
     /*    opacity: 1;*/
     display: block;
+    position: absolute;
     transition: ease-in-out;
     transition-duration: 0.5s;
     box-sizing: inherit;
@@ -664,6 +663,7 @@ align-items: center;
     font-family: sans-serif;
 }
 
+
 #right-colms>.number-text {
     position: absolute;
 
@@ -675,6 +675,7 @@ align-items: center;
     font-weight: 700;
     color: rgb(151, 150, 150);
 }
+
 
 
 .Number-1:hover {
@@ -772,6 +773,7 @@ align-items: center;
 .boxes-1>video {
     width: 880px;
     height: 750px;
+    position: absolute;
 }
 
 .boxes-1>.a-1 {
@@ -786,7 +788,7 @@ align-items: center;
     animation-name: Box-1;
     animation-duration: 20s;
     opacity: 1;
-    animation-iteration-count: infinite;
+    
 }
 
 @keyframes Box-1 {
@@ -828,7 +830,7 @@ align-items: center;
     animation-duration: 20s;
     transition-delay: 5s;
     opacity: 1;
-    animation-iteration-count: infinite;
+   
 }
 
 @keyframes Box-1 {
@@ -869,8 +871,7 @@ align-items: center;
     animation-name: Box-1;
     animation-duration: 20s;
     transition-delay: 5s;
-    animation-iteration-count: infinite;
-    opacity: 1;
+    
 }
 
 @keyframes Box-1 {
@@ -911,6 +912,7 @@ align-items: center;
 .boxes-2>video {
     width: 880px;
     height: 750px;
+    position: absolute;
 }
 
 .boxes-2>.b-1 {
@@ -1052,7 +1054,7 @@ align-items: center;
 .boxes-3>video {
     width: 880px;
     height: 750px;
-
+    position: absolute;
 
 }
 
@@ -1195,6 +1197,7 @@ align-items: center;
 .boxes-4>video {
     width: 880px;
     height: 750px;
+    position: absolute;
 }
 
 .boxes-4>.d-1 {
@@ -1335,6 +1338,7 @@ align-items: center;
 .boxes-5>video {
     width: 880px;
     height: 750px;
+    position: absolute;
 }
 
 .boxes-5>.e-1 {
@@ -1474,6 +1478,7 @@ align-items: center;
 .boxes-6>video {
     width: 880px;
     height: 750px;
+    position: absolute;
 }
 
 .boxes-6>.f-1 {
@@ -1613,6 +1618,7 @@ align-items: center;
 .boxes-7>video {
     width: 880px;
     height: 750px;
+    position: absolute;
 }
 
 .boxes-7>.g-1 {
