@@ -169,6 +169,9 @@ body {
 */
 
 }
+#left-colms{
+    width: 100%;
+}
 
 #right-colms:hover {
     cursor: pointer;
