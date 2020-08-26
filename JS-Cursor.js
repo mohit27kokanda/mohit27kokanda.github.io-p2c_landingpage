@@ -1,4 +1,4 @@
-/ set the starting position of the cursor outside of the screen
+// set the starting position of the cursor outside of the screen
 let clientX = -100;
 let clientY = -100;
 const innerCursor = document.querySelector(".cursor--small");
