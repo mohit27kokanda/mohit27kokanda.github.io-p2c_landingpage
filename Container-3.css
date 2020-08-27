@@ -1,0 +1,97 @@
+.containerfluid{
+    margin-top:200px;
+
+}
+
+  .container {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1140px;
+  }
+  h1 {
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #424242;
+    text-align: center;
+    border-bottom: 2px solid rgba(219, 219, 231, 1);
+    border-block-start-width: 50%;
+  }
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  .item {
+    flex: 1;
+    height: 100%;
+    background-color: #989797;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+  }
+  .item:hover {
+    flex: 7;
+  }
+  .item:hover h2 {
+    text-align: center;
+    font-size: 1.7vw;
+    background-color: rgba(255,255,255,0.8);
+  }
+  .item:hover p {
+    opacity: 1;
+    background-color: rgb(233,107,86, 0.3);
+  }
+  .item > h2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+    /* background-color: rgba(222, 222, 222, .8); */
+  }
+  .item > p {
+    opacity: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    margin-top: 100px;
+  }
+  .item-1 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgba(219, 219, 231, 0.4)), url(img/PIC-1.jpg);
+  }
+  .item-2 {
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .5),
+    rgb(233,107,86, 0.4)), url(img/PIC-2.jpg);
+  }
+  .item-3 {
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .5),
+    rgba(219, 219, 231, 0.4)), url(img/PIC-3.jpg);
+  }
+  .item-4 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgb(233,107,86, 0.4)), url(img/PIC-4.jpg);
+  }
+  .item-5 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgba(219, 219, 231, 0.4)), url(img/PIC-5.jpg);
+  }
+  .item-6 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgb(233,107,86, 0.4)), url(img/PIC-6.jpg);
+  }
+  
+  
