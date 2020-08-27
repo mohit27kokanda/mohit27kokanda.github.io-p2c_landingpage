@@ -25,27 +25,38 @@
     flex-direction: row;
     width: 100%;
     height: 70vh;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px rgba(86, 86, 88, 0.622), -2em 0 0.8em rgba(14, 13, 13, 0.615);
   }
+  
   .item {
-    flex: 1;
+    flex: 0.2;
     height: 100%;
     background-color: #989797;
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    transition: flex 0.8s ease;
+    transition: flex 0.2s ease;
   }
   .item:hover {
-    flex: 7;
+    flex: 8;
   }
+  .item-1:hover +.item-2 .item-3 .item-4 .item-5 .item-6
+  {
+    opacity: 0;;
+    
+  } 
+  
+
   .item:hover h2 {
     text-align: center;
     font-size: 1.7vw;
     background-color: rgba(255,255,255,0.8);
   }
   .item:hover p {
+    text-align: center;
     opacity: 1;
-    background-color: rgb(233,107,86, 0.3);
+    background-color: rgb(233,107,86, 0.5);
   }
   .item > h2 {
     margin-top: 20px;
@@ -57,6 +68,7 @@
   }
   .item > p {
     opacity: 0;
+    color: white;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -68,31 +80,42 @@
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .5),
             rgba(219, 219, 231, 0.4)), url(img/PIC-1.jpg);
+            
   }
+  /* .item-1 >.Video-1{
+    width: 1140px;
+    position: absolute;
+    border: 2px solid black;
+  } */
   .item-2 {
     background-image: linear-gradient(115deg,
     rgba(222, 222, 222, .5),
     rgb(233,107,86, 0.4)), url(img/PIC-2.jpg);
+    
   }
   .item-3 {
     background-image: linear-gradient(115deg,
     rgba(222, 222, 222, .5),
     rgba(219, 219, 231, 0.4)), url(img/PIC-3.jpg);
+   
   }
   .item-4 {
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .5),
             rgb(233,107,86, 0.4)), url(img/PIC-4.jpg);
+            
   }
   .item-5 {
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .5),
             rgba(219, 219, 231, 0.4)), url(img/PIC-5.jpg);
+            
   }
   .item-6 {
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .5),
             rgb(233,107,86, 0.4)), url(img/PIC-6.jpg);
+            
   }
   
   
