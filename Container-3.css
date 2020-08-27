@@ -8,7 +8,7 @@
     margin: 0 auto;
     width: 1140px;
   }
-  h1 {
+ .First_heading {
     position: relative;
     margin-bottom: 45px;
     font-family: 'Oswald', sans-serif;
@@ -16,6 +16,7 @@
     text-transform: uppercase;
     color: #424242;
     text-align: center;
+    font-weight: 700;
     border-bottom: 2px solid rgba(219, 219, 231, 1);
     border-block-start-width: 50%;
   }
