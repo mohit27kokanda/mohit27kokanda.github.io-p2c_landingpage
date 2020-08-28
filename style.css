@@ -379,7 +379,9 @@ body{
 }
 
 
-
+.less-size{
+    display: none;
+}
 .vertical-small-line {
     position: absolute;
     bottom: 0%;
@@ -483,9 +485,12 @@ body{
     animation-name: example-1;
     animation-duration: 2s;   
 }
-@media(max-width:1000px){
-    .banner-heading{
-        font-size: 18px;
+@media(max-width:650px){
+    .less-size{
+        display: block;
+    }
+    .more-size{
+        display: none;
     }
 }
 
