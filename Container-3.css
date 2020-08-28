@@ -31,34 +31,71 @@
   }
   
   .item {
-    flex: 0.2;
+    flex: 1;
     height: 100%;
-    background-color: #989797;
+    /* background-color: #989797; */
     background-position: center;
     background-size: cover;
     background-repeat: none;
     transition: flex 0.2s ease;
+    position: relative;
   }
   .item:hover {
     flex: 8;
+    background-image: none;
   }
-  .item-1:hover +.item-2 .item-3 .item-4 .item-5 .item-6
+  /* .item-1:hover +.item-2 .item-3 .item-4 .item-5 .item-6
   {
     opacity: 0;;
     
-  } 
+  }  */
   
 
   .item:hover h2 {
     text-align: center;
     font-size: 1.7vw;
     background-color: rgba(255,255,255,0.8);
+    z-index: 100;
   }
   .item:hover p {
     text-align: center;
     opacity: 1;
+    display: block;
     background-color: rgb(233,107,86, 0.5);
+    z-index: 100;
+
+    animation-name: Para;
+    animation-duration: 20s;
+    transition-delay: 5s;
+    /* opacity: 1; */
   }
+  @keyframes para {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 1;
+        transition-delay: 5s;
+    }
+
+    20% {
+        opacity: 0;
+        transition-delay: 5s;
+    }
+
+    50% {
+        opacity: 0;
+        transition-delay: 5s;
+    }
+
+    100% {
+        opacity: 0;
+        transition-delay: 5s;
+    }
+}
+
+
   .item > h2 {
     margin-top: 20px;
     font-family: sans-serif;
@@ -68,7 +105,7 @@
     /* background-color: rgba(222, 222, 222, .8); */
   }
   .item > p {
-    opacity: 0;
+    display: none;
     color: white;
     text-align: center;
     justify-content: center;
@@ -83,11 +120,39 @@
             rgba(219, 219, 231, 0.4)), url(img/PIC-1.jpg);
             
   }
-  /* .item-1 >.Video-1{
-    width: 1140px;
+  .Video-1:hover{
+    opacity: 1;
+    z-index: 0;
+    flex: 8;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .Video-1{
+    flex: 1;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    border: 2px solid black;
-  } */
+    z-index: -1;
+
+  top:0%;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.2s ease;
+    opacity: 1;
+  }
+  .Video-1 > video{
+    width: 100%;
+    height: 100%;
+
+    
+      
+  }
+  .Video-1:hover {
+    flex: 8;
+  }
   .item-2 {
     background-image: linear-gradient(115deg,
     rgba(222, 222, 222, .5),
