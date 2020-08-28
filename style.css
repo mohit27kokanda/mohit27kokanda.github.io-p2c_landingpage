@@ -459,16 +459,34 @@ body{
     left: 80px;
     cursor: default;
     animation-name: example;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 @keyframes example{
-    from {top: 60%;
-        left:400px;}
+    from {
+        left:-400px;}
     to {top: 40%;}
+}
+@keyframes example-1{
+    from {
+        top: 65% ;left:300px;}
+    to {top: 50%;}
 }
 .banner-heading:hover{
     cursor: pointer;
     top: 38%;
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    cursor: default;
+    animation-name: example-1;
+    animation-duration: 2s;   
+}
+@media(max-width:1000px){
+    .banner-heading{
+        font-size: 18px;
+    }
 }
 
 /* Container-3 */
