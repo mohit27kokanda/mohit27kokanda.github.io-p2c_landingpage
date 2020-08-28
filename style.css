@@ -467,6 +467,7 @@ body{
     to {top: 40%;}
 }
 .banner-heading:hover{
+    cursor: pointer;
     top: 38%;
 }
 
