@@ -529,7 +529,9 @@ body{
     padding: 5px 0;
     margin: 30px auto;
 }
-
+.no-banner-heading{
+    display: none;
+}
 }
 
 /* Container-3 */

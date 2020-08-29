@@ -90,4 +90,16 @@ data[3].classList.toggle('image-design-none')
 data[4].classList.toggle('image-design-none')
 var dat=document.querySelector(".slideshow-container");
 dat.classList.toggle('slideshow-container-nav')
+var bannerheading=document.querySelectorAll(".banner-heading");
+bannerheading[0].classList.toggle('no-banner-heading');
+bannerheading[1].classList.toggle('no-banner-heading');
+bannerheading[2].classList.toggle('no-banner-heading');
+bannerheading[3].classList.toggle('no-banner-heading');
+bannerheading[4].classList.toggle('no-banner-heading');
+var bannercontent=document.querySelectorAll(".banner-content");
+bannercontent[0].classList.toggle('no-banner-heading');
+bannercontent[1].classList.toggle('no-banner-heading');
+bannercontent[2].classList.toggle('no-banner-heading');
+bannercontent[3].classList.toggle('no-banner-heading');
+bannercontent[4].classList.toggle('no-banner-heading');
 }
