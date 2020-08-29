@@ -492,6 +492,42 @@ body{
     .more-size{
         display: none;
     }
+    .banner-heading{
+        position: absolute;
+        top: 25%;
+        left: 80px;
+        cursor: default;
+        animation-name: example;
+        animation-duration: 2s;
+    }
+    @keyframes example{
+        from {
+            left:-400px;}
+        to {top: 25%;}
+    }
+    @keyframes example-1{
+        from {
+            top: 65% ;left:300px;}
+        to {top: 35%;}
+    }
+    .banner-heading:hover{
+        cursor: pointer;
+        top: 28%;
+    }
+    .banner-content{
+        position: absolute;
+        top: 35%;
+        left: 80px;
+        cursor: default;
+        animation-name: example-1;
+        animation-duration: 2s;   
+    }
+    .f-5{
+        font-size: 30px;
+    }
+    .f-5-1{
+        font-size: 25px;
+    }
 }
 
 /* Container-3 */
