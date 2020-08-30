@@ -19,6 +19,27 @@
     <link href="Container-3.css" rel="stylesheet">
     <link href="Container-4.css" rel="stylesheet">
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Some SVG filter effects for custom mouse cursors.">
+    <meta name="keywords" content="svg filter, custom cursor, distortion, animation, effect, interactive, web, frontend">
+    <meta name="author" content="Codrops">
+    <link rel="shortcut icon" href="favicon.2e5f6236.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/gdg8keg.css">
+    <link rel="stylesheet" type="text/css" href="demo3.7fae4879.css">
+
+    <script>
+        document.documentElement.className = "js";
+
+        var supportsCssVars = function supportsCssVars() {
+            var e,
+                t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+        };
+
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+
 </head>
 <body class="landing-page">
     <div class="loader">
@@ -86,12 +107,12 @@
 
             <img src='img/gif-idea.gif' class="image-design more-size" alt="Idea Identification & Assesment" />
             <img src='img/2.gif' class="image-design image-transition less-size" alt="Web & App" />
-            <div>
+            <!-- <div>
                 <h1  class="banner-heading f-3"><b>Business Planning</b></h1>
                 <div class="banner-content">
                     <h2><b>Shaping Your Ideas With a Plan</b></h2>
                 </div>
-            </div>
+            </div> -->
             <a class="prev text-link" onclick='plusSlides(-1)'><strong>Web<br> & App</strong> </a>
             <a class="next text-link" onclick='plusSlides(1)'><strong>Business <br>Planning</strong></a>
 
@@ -179,14 +200,14 @@
 
 
 
-    <div class="center-div">
+    <!-- <div class="center-div">
         <div class="cursor cursor--small"></div>
         <canvas class="cursor cursor--canvas" resize></canvas>
 
         <nav class="nav">
             <a href="#" class="link"></a>
         </nav>
-    </div>
+    </div> -->
 
 
     <div id="C-2" class="Containerfliud">
@@ -468,7 +489,16 @@
 
 
 
-
+    <svg class="cursor" width="280" height="280" viewBox="0 0 280 280">
+        <defs>
+            <filter id="filter-1" x="-50%" y="-50%" width="150%" height="150%" filterUnits="objectBoundingBox">
+                <feTurbulence type="fractalNoise" baseFrequency="0.02 0.15" numOctaves="3" result="warp"></feTurbulence>
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="0" in="SourceGraphic" in2="warp"></feDisplacementMap>
+            </filter>
+        </defs>
+        <circle class="cursor__inner" cx="140" cy="140" r="50"></circle>
+    </svg>
+    <script src="curser-blast.js"></script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
@@ -482,7 +512,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
-    <script src="JS-Cursor.js"></script>
+    <!-- <script src="JS-Cursor.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 

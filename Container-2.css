@@ -1,4 +1,4 @@
-.center-div {
+/* .center-div {
 
     width: 100%;
     height: 100%;
@@ -42,7 +42,7 @@
     height: 75px;
     margin: 0 5px;
 
-}
+}  */
 
 /*
         .settings-icon {
@@ -65,7 +65,7 @@
         }
 */
 
-.link:hover .settings-icon__line,
+/* .link:hover .settings-icon__line,
 .link:hover .settings-icon__rect {
     stroke: var(--color-link);
     transition: all 0.2s ease 0.05s;
@@ -86,7 +86,7 @@
 .center-div,
 .center-div a {
     cursor: none;
-}
+/* } */
 
 
 
@@ -1333,5 +1333,5 @@ body {
 
 .landing-page,
 .landing-page a {
-    cursor: none;
+    cursor: url black;
 }
