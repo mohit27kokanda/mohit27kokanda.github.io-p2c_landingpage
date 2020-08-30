@@ -27,15 +27,16 @@
 .header h1 ,
 .header .button {
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 
 .header h1 {
     text-transform: uppercase;
     letter-spacing: 1pt;
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 700;
     color: white;
+    text-shadow: -0.0095em 0.0075em 0 #3b3a3b, 0.05em 0.005em 0 #6b696a, 0.01em 0.01em 0 #6e6c6d, 0.015em 0.015em #7a7074, 0.02em 0.02em 0 #75666b, 0.025em 0.025em 0 #5f595b, 0.03em 0.03em 0 #1b1517, 0.035em 0.035em 0 #524d4f;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -59,11 +60,14 @@
 }
 
 .header .button:hover {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+    box-shadow:  2px 1px 20px 0 rgba(0, 0, 0, 0.9);
+    /* color: #6b696a; */
+    /* background :rgba(0,0,0,0.6); */
 }
 
 .header .button:focus {
     outline: 0;
+    
 }
 
 .header .button:before,
@@ -138,6 +142,7 @@
     width: 100%;
     position: absolute;
     overflow: auto;
+    z-index: 0;
     background: rgba(0, 0, 0, 0.3);
     /*        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%);*/
 }
@@ -201,14 +206,15 @@
     list-style: none;
     width: 100%;
     height: 100%;
+    /* border: 2px solid transparent; */
+    
 
-
-    padding: 0;
+    
     margin: 0;
 }
 
 .img-list .li {
-    border: 2px solid transparent;
+   border: 5px solid rgb(178,178,178) ;
     box-sizing: border-box;
     width: 50%;
     height: 34%;
@@ -223,14 +229,17 @@
 .title {
     font-size: 1.5em;
     letter-spacing: 1pt;
-    color: black;
+    color:black;
     opacity: 1;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    z-index: 1;
+    
 }
 
 .img-list .li:hover .title {
     opacity: 1;
+    color: white;
 }
 
 /*
@@ -297,7 +306,8 @@
 }
 
 .li-1 {
-    border: 5px solid transparent;
+    padding: 2px;
+    position: absolute;
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-1.jpg);
@@ -307,7 +317,8 @@
 }
 
 .li-2 {
-    border: 5px solid transparent;
+    padding: 2px;
+    position: absolute;
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-1.jpg);
@@ -317,7 +328,8 @@
 }
 
 .li-3 {
-    border: 5px solid transparent;
+    padding: 2px;
+    position: absolute;
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-1.jpg);
@@ -327,7 +339,8 @@
 }
 
 .li-4 {
-    border: 5px solid transparent;
+    padding: 2px;
+    position: absolute;
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-1.jpg);
@@ -337,7 +350,8 @@
 }
 
 .li-5 {
-    border: 5px solid transparent;
+    padding: 2px;
+    position: absolute;
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-1.jpg);
@@ -347,7 +361,8 @@
 }
 
 .li-6 {
-    border: 5px solid transparent;
+   border: 2px soild transparent;
+    
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-1.jpg);
@@ -375,7 +390,7 @@
 }
 
 .li-b1 {
-    border: 5px solid transparent;
+    
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-2.jpg);
@@ -385,7 +400,7 @@
 }
 
 .li-b2 {
-    border: 5px solid transparent;
+   
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-2.jpg);
@@ -395,7 +410,7 @@
 }
 
 .li-b3 {
-    border: 5px solid transparent;
+    
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-2.jpg);
@@ -405,7 +420,7 @@
 }
 
 .li-b4 {
-    border: 5px solid transparent;
+    
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-2.jpg);
@@ -415,7 +430,7 @@
 }
 
 .li-b5 {
-    border: 5px solid transparent;
+   
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-2.jpg);
@@ -425,7 +440,7 @@
 }
 
 .li-b6 {
-    border: 5px solid transparent;
+    
     background-image: linear-gradient(115deg,
             rgba(222, 222, 222, .6),
             rgba(233, 117, 100, 0.3)), url(img/li-2.jpg);

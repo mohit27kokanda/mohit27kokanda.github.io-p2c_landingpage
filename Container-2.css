@@ -237,6 +237,9 @@ body {
 
     font-family: sans-serif;
 }
+#right-colms > .company-tag-text:hover{
+    color:rgb(232,114,96);
+}
 
 #right-colms > .number-text {
     position: absolute;
