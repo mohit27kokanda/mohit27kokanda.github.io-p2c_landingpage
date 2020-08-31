@@ -1,8 +1,6 @@
 
 
-.bigger-container {
-    /*    max-height: 1024px;*/
-}
+
 
 .Container-4 {
     height: 110vh;
@@ -168,6 +166,9 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+.content .section .inner-text:hover{
+    color: rgb(232,114,96);
+}
 
 .content .section .inner-text-1 {
     top: 37px;
@@ -236,6 +237,7 @@
     z-index: 1;
     
 }
+
 
 .img-list .li:hover .title {
     opacity: 1;
@@ -382,7 +384,7 @@
 }
 
 .content .section .inner-text-2 {
-    top: 800px;
+    top: 780px;
     position: absolute;
 
 

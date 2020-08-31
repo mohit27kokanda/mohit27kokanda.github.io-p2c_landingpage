@@ -1,0 +1,170 @@
+.container-5 {
+            border: 2px solid rgb(178, 178, 178);
+            height: auto;
+            /*            background-color: rgba(178, 178, 178, 1)*/
+        }
+
+        .grid {
+            height: 100vh;
+            position: relative;
+            margin: 0 auto;
+            padding: 1em 5.8em;
+            max-width: 1200px;
+            list-style: none;
+            text-align: center;
+            background-color: rgba(193, 191, 191, 0.26)
+        }
+
+        /* Common style */
+        .grid .figure {
+
+            position: relative;
+            float: left;
+            overflow: hidden;
+            margin: 10px 1%;
+            min-width: 220px;
+            max-width: 300px;
+            max-height: 320px;
+            height: 100%;
+            width: 100%;
+            background: #3085a3;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .grid .figure img {
+            position: relative;
+            display: flex;
+            min-height: 100%;
+            max-width: 100%;
+            opacity: 0.8;
+        }
+
+        .grid .figure .figcaption {
+            padding: .5em;
+
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 1.25em;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        /*
+        .grid figure figcaption::before {
+        position: absolute;
+        top: 30px;
+        }
+*/
+
+        .grid figure figcaption::before,
+        .grid figure figcaption::after {
+            pointer-events: none;
+
+        }
+
+        .grid figure figcaption {
+            position: absolute;
+            top: -20px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Anchor will cover the whole item by default */
+        /* For some effects it will show as a button */
+
+        /*
+        .grid figure figcaption>a {
+            z-index: 100;
+            text-indent: 100%;
+            white-space: nowrap;
+            font-size: 0;
+            opacity: 0;
+        }
+*/
+
+
+        .grid figure h2 {
+            word-spacing: 0.15em;
+            font-size: 1.15em;
+            font-weight: 500;
+            position: absolute;
+            width: 200px;
+            display: flex;
+            top: 40px;
+            left: 20px;
+
+        }
+
+        .grid figure h2 span {
+            font-weight: 300;
+        }
+
+        .grid figure h2,
+        .grid figure p {
+            margin: 0;
+        }
+
+        .grid figure .down-text {
+            letter-spacing: 1px;
+            font-size: 68.5%;
+        }
+
+        figure.effect-dexter {
+            background: -webkit-linear-gradient(top, rgba(37, 141, 200, 1) 0%, rgba(104, 60, 19, 1) 100%);
+            background: linear-gradient(to bottom, rgba(37, 141, 200, 1) 0%, rgba(104, 60, 19, 1) 100%);
+        }
+
+        figure.effect-dexter img {
+            -webkit-transition: opacity 0.35s;
+            transition: opacity 0.35s;
+        }
+
+        figure.effect-dexter:hover img {
+            opacity: 0.4;
+        }
+
+        figure.effect-dexter figcaption::after {
+            position: absolute;
+
+            right: 10px;
+            bottom: -5px;
+            left: 10px;
+            height: -webkit-calc(35% - 30px);
+            height: calc(35% - -35px);
+            border: 2px solid #fff;
+            content: '';
+            -webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s;
+            -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+        }
+
+        figure.effect-dexter:hover figcaption::after {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        figure.effect-dexter figcaption {
+            padding: 1em;
+            text-align: left;
+        }
+
+        figure.effect-dexter .down-text {
+            position: absolute;
+            right: 60px;
+            bottom: 30px;
+            left: 60px;
+            opacity: 0;
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            -webkit-transform: translate3d(0, -100px, 0);
+            transform: translate3d(0, -100px, 0);
+        }
+
+        figure.effect-dexter:hover .down-text {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
