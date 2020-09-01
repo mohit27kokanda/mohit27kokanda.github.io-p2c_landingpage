@@ -15,7 +15,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 44px;
     text-transform: uppercase;
-    color: rgb(230,117,100);
+    color: black;
     /* color: #424242; */
     text-align: center;
     font-weight: 700;
@@ -189,5 +189,125 @@
             rgb(233,107,86, 0.4)), url(img/PIC-6.jpg);
             
   }
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 75px 0;
+      margin: 0 auto;
+      width: 1024px;
+      overflow: scroll;
+
+    }
+    .First_heading {
+      position: relative;
+      margin-bottom: 25px;
+      font-family: 'Oswald', sans-serif;
+      font-size:2em;
+      text-transform: uppercase;
+      color: black;
+      /* color: #424242; */
+      text-align: center;
+      font-weight: 700;
+      border-bottom: 2px solid rgba(219, 219, 231, 1);
+      border-block-start-width: 50%;
+    }
+  }
+  
+
+  /* Small-Screen */
+  .swiper-container {
+    width: 100vw;
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 600px;
+
+}
+
+.BG-s-1 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgb(222, 222, 222, 0.4)), url(img/PIC-1.jpg);
+}
+
+.BG-s-2 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgb(222, 222, 222, 0.4)), url(img/PIC-2.jpg);
+}
+
+.BG-s-3 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgb(222, 222, 222, 0.4)), url(img/PIC-3.jpg);
+}
+
+.BG-s-4 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgb(222, 222, 222, 0.4)), url(img/PIC-4.jpg);
+}
+
+.BG-s-5 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgb(222, 222, 222, 0.4)), url(img/PIC-5.jpg);
+}
+
+.BG-s-6 {
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .5),
+            rgb(222, 222, 222, 0.4)), url(img/PIC-6.jpg);
+}
   
   
+  .every-head{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+    background-color:rgba(58, 55, 55, 0.959);
+  }
+  .Video-s-1{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+
+  top:0%;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.2s ease;
+    opacity: 1;
+  }
+  .Video-s-1 > video{
+    width: 100%;
+    height: 100%;
+    opacity:0;
+  }
+  .BG > p{
+    opacity: 0;
+    font-size: 1.25em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    /* padding-top: %; */
+    background-color: rgba(222, 222, 222, .6);
+
+  }
+  .swiper-slide:hover p{
+    opacity: 1;
+  }
+  .swiper-slide:hover video{
+    opacity: 1;
+  }
