@@ -63,8 +63,9 @@
   .item:hover p {
     text-align: center;
     opacity: 1;
+    color: black;
     display: block;
-    background-color: rgba(226, 105, 83, 0.63);
+    background-color: rgba(222, 222, 222, .6);
     z-index: 100;
 
     animation-name: Para;
@@ -106,7 +107,7 @@
     text-align: center;
     font-size: 1.5vw;
     font-weight: 600;
-    background-color: rgba(126, 126, 126, 0.701);
+    background-color: rgba(184, 183, 183, 0.555);
     /* background-color: rgba(222, 222, 222, .8); */
   }
   .item > p {
@@ -162,7 +163,7 @@
   .item-2 {
     background-image: linear-gradient(115deg,
     rgba(222, 222, 222, .5),
-    rgb(233,107,86, 0.4)), url(img/PIC-2.jpg);
+    rgba(219, 219, 231, 0.4)), url(img/PIC-2.jpg);
     
   }
   .item-3 {
@@ -173,8 +174,8 @@
   }
   .item-4 {
     background-image: linear-gradient(115deg,
-            rgba(222, 222, 222, .5),
-            rgb(233,107,86, 0.4)), url(img/PIC-4.jpg);
+    rgba(222, 222, 222, .5),
+    rgba(219, 219, 231, 0.4)), url(img/PIC-4.jpg);
             
   }
   .item-5 {
@@ -185,8 +186,8 @@
   }
   .item-6 {
     background-image: linear-gradient(115deg,
-            rgba(222, 222, 222, .5),
-            rgb(233,107,86, 0.4)), url(img/PIC-6.jpg);
+    rgba(222, 222, 222, .5),
+    rgba(219, 219, 231, 0.4)), url(img/PIC-6.jpg);
             
   }
   @media only screen and (max-width: 600px) {
