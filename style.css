@@ -198,13 +198,12 @@
 .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 0%;
     height: 200px;
     width: auto;
     margin-top: 0;
     padding: 0;
     color: rgb(91, 91, 113, 0.0);
-    font-size: 40px;
     transition: .6s ease;
     border-radius: 0 1px 1px 0;
     opacity: 0;
@@ -392,13 +391,6 @@
     height: 100%;
 }
 
-
-
-.image-design {
-    width: 100%;
-    height: 100%;
-}
-
 .nav-btn {
 
     outline: none !important;
@@ -472,6 +464,21 @@
 }
 
 @media(max-width:650px){
+    .prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    height: 10px !important;
+    width: auto;
+    margin-top: 0;
+    padding: 0;
+    color: rgb(91, 91, 113, 0.0);
+    transition: .6s ease;
+    border-radius: 0 1px 1px 0;
+    opacity: 1;
+    font-size: 25px;
+}
     .less-size{
         display: block;
     }
