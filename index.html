@@ -8,6 +8,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <link href="/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="Bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -380,8 +390,8 @@
     <div class="containerfluid">
         <!-- <div class="container"> -->
             <h1 class="First_heading"><a>Our Key Features</a></h1>
-
-            <div class="gallery-wrap">
+<div class="big-screen d-none d-sm-block">
+            <div class="gallery-wrap ">
                 <div class="item item-1">
 
                     <h2> <a>Entrepreneur Ideas Centric Assessment</a></h2>
@@ -433,6 +443,66 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <!-- Small-Screen  -->
+            <div class=" swiper-container d-block d-sm-none">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide BG BG-s-1">
+                        <h2 class="every-head"> <a>Entrepreneur Ideas Centric Assessment</a></h2>
+                        <p>We assist your idea and its underlying potential in the everchanging market, to create a detailed analysis for consumer needs and requirements.</p>
+                    <div class="Video-s-1">
+                        <video autoplay muted loop>
+                            <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
+                    </div>
+                    </div>
+                    <div class="swiper-slide BG BG-s-2">
+                        <h2 class="every-head"><a> Consultant Site Visit</a></h2>
+                        <p>We perform site visits to new and existing startups and boost your potential with detailed assesments under aegis of experienced consultants</p>
+                    <div class="Video-s-1">
+                        <video autoplay muted loop>
+                            <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
+                    </div>
+                    </div>
+                    <div class="swiper-slide BG BG-s-3">
+                        <h2 class="every-head"><a> Dedicated Skilled Team</a></h2>
+                        <p>We assign a group of skilled driven individuals who uphold utmost quality and integrity in their services. Their mentorship and service will be significant in the expansion of your business.</p>
+                    <div class="Video-s-1">
+                        <video autoplay muted loop>
+                            <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
+                    </div>
+                    </div>
+                    <div class="swiper-slide BG BG-s-4">
+                        <h2 class="every-head"> <a>Excellent Support To Entrepreneur</a></h2>
+                        <p>We will work with you in every step to the way. Be it finance, legal or tech, we are here to support your venture and your core ideas.</p>
+                        <div class="Video-s-1">
+                            <video autoplay muted loop>
+                                <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                    <div class="swiper-slide BG BG-s-5">
+                        <h2 class="every-head"><a>Client Business Data Privacy And Data Backups</a></h2>
+                        <p>Your privacy is one of our biggest concerns. We strictly adhere to all privacy norms and have regular backups to deal strategically with any shortcomings.</p>
+                    <div class="Video-s-1">
+                        <video autoplay muted loop>
+                            <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
+                    </div>
+                    </div>
+                    <div class="swiper-slide BG BG-s-6">
+                        <h2 class="every-head"><a>Data Protection</a></h2>
+                        <p>After signing the NDA, our services will be rendered by keeping in mind the confidentiality, integrity and safety of your private data.</p>
+                    <div class="Video-s-1">
+                        <video autoplay muted loop>
+                            <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
+                    </div>
+                    </div>
+        
+                </div>
+        
+        
+                <div class="swiper-pagination"></div>
+            </div>
+
+
         <!-- </div> -->
     </div>
     <!-- Container-4 -->
@@ -613,6 +683,24 @@
         </defs>
         <circle class="cursor__inner" cx="140" cy="140" r="50"></circle>
     </svg>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
     <script src="curser-blast.js"></script>
     
 
