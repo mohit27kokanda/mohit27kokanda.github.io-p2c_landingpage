@@ -3,6 +3,10 @@
     padding: 75px 10px;
 
 }
+.containerfluid{
+  margin-top:125px;
+
+}
 
   .container {
     padding: 75px 0;
@@ -211,6 +215,10 @@
       border-bottom: 2px solid rgba(219, 219, 231, 1);
       border-block-start-width: 50%;
     }
+    .containerfluid{
+      margin-top:0px;
+    
+    }
   }
   
 
@@ -225,7 +233,7 @@
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 320px;
     height: 600px;
 
 }
