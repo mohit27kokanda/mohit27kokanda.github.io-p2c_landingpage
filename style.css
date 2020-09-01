@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 :root {
-
-
-    margin: 0;
     --color-text: white;
     /*    --color-bg: #0e0e0e;*/
     --color-link: #d20d4c;
@@ -23,8 +20,6 @@
     --cursor-fill: none;
     --cursor-stroke-width: 2px;
 }
-
-
 @media (any-pointer: fine) {
     .cursor {
         position: fixed;
@@ -43,13 +38,6 @@
         stroke-width: var(--cursor-stroke-width);
     }
 }
-
-body{
-    margin: 0;
-    padding: 0;
-}
-
-/*Spinner*/
 .loader {
     position: fixed;
     z-index: 99;
@@ -79,8 +67,6 @@ body{
     }
 }
 
-/*Container1*/
-
 
 /*Container1*/
 
@@ -93,7 +79,6 @@ body{
     bottom: 0;
     display: flex;
     background:white;
-
 }
 
 .slideshow-inner {
@@ -177,17 +162,12 @@ body{
 }
 
 .mySlides {
-
-    
     height: 100vh;
-
 }
 
 .dot-div {
     margin-top: -30px;
 }
-
-
 .dot {
     cursor: pointer;
     height: 2px;
@@ -577,6 +557,36 @@ body{
 }
 .no-banner-heading{
     display: none;
+}
+.navbar-toggler{
+    top: 10px;
+    right: 0px;
+}
+.navbar .logo {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.vl-line {
+    border-left: 2px solid rgb(91, 91, 113, 0.7);
+    height: 100vh;
+    position: absolute;
+    left:-20px;
+    top: -10px;
+}
+
+.vr-line {
+    border-left: 2px solid rgb(91, 91, 113, 0.7);
+    height: 100vh;
+    bottom: 0;
+    position: absolute;
+    right: 5px;
+}
+.Scroll-div{
+    display: none;
+}
+.vertical-small-line {
+display: none;
 }
 }
 
