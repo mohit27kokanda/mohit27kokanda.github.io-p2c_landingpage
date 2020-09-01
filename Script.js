@@ -87,6 +87,11 @@ data[1].classList.toggle('image-design-none')
 data[2].classList.toggle('image-design-none')
 data[3].classList.toggle('image-design-none')
 data[4].classList.toggle('image-design-none')
+data[5].classList.toggle('image-design-none')
+data[6].classList.toggle('image-design-none')
+data[7].classList.toggle('image-design-none')
+data[8].classList.toggle('image-design-none')
+data[9].classList.toggle('image-design-none')
 var dat=document.querySelector(".slideshow-container");
 dat.classList.toggle('slideshow-container-nav')
 var bannerheading=document.querySelectorAll(".banner-heading");
