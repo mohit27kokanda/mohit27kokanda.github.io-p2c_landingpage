@@ -4,13 +4,13 @@ var slideIndex = 1;
 var myTimer;
 
 var slideshowContainer;
-window.addEventListener("load", function () {
+
     const loader = document.querySelector(".loader");
     console.log(loader);
     loader.className += " hidden";
-});
 
-window.addEventListener("load", function () {
+
+
     showSlides(slideIndex);
     myTimer = setInterval(function () {
         plusSlides(1)
@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
 
     slideshowContainer.addEventListener('mouseenter', pause)
     slideshowContainer.addEventListener('mouseleave', resume)
-})
+
 
 
 function plusSlides(n) {
