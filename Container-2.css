@@ -1423,6 +1423,7 @@ body {
         width: 890px;
         height: 750px;
         position: absolute;
+        top: -100;
         left: 0;
         
     }
@@ -1440,13 +1441,20 @@ body {
     }
     
     .boxes-1 > video {
-        top:-110px;
-        position: absolute;;
+        top:0px;
+        position: sticky;
         width: 100%;
-        height: 750px;
+        /* background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .3),
+            rgba(219, 219, 231, 0.4)), url(Video/Working-Video-2.mp4);
+            background-position: center;
+            background-size: cover;
+            background-repeat: none; */
+        height: 100%;
     }
     .boxes-2 {
         display: none;
+    
     }
     .boxes-3 {
         display: none;
