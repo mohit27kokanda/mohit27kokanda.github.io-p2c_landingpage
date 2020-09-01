@@ -1,0 +1,464 @@
+.bigger-container{
+    background-color: rgba(209, 205, 205, 0.5);
+}
+
+
+
+.Container-4 {
+    height: 110vh;
+   
+    /*    width: 100%;*/
+
+    /*    */
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 10px 10px rgba(86, 86, 88, 0.622), -2em 0 0.8em rgba(14, 13, 13, 0.615);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 ,
+.header .button {
+    position: relative;
+    z-index: 1;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: white;
+    text-shadow: -0.0095em 0.0075em 0 #3b3a3b, 0.05em 0.005em 0 #6b696a, 0.01em 0.01em 0 #6e6c6d, 0.015em 0.015em #7a7074, 0.02em 0.02em 0 #75666b, 0.025em 0.025em 0 #5f595b, 0.03em 0.03em 0 #1b1517, 0.035em 0.035em 0 #524d4f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .button {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    bottom: 100px;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 50px;
+    border: 0;
+    box-shadow: 2px 1px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    font-size: 1em;
+    color: #09203f;
+    transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    /* overflow: hidden; */
+}
+
+.header .button:hover {
+    box-shadow:  2px 1px 20px 0 rgba(0, 0, 0, 0.9);
+    /* color: #6b696a; */
+    /* background :rgba(0,0,0,0.6); */
+}
+
+.header .button:focus {
+    outline: 0;
+    
+}
+.header-tag-line{
+    z-index: 1;
+    position: absolute;
+    top: -410px;
+    opacity: 0;
+}
+.header .button:focus +.header-tag-line{
+   opacity: 1;
+}
+
+.header .button:before,
+.header .button:after {
+    font-family: "Font Awesome 5 Free";
+    transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+    top: 17px;
+    position: absolute;
+}
+
+.header .button:before {
+    content: "\f067";
+    opacity: 1;
+    left: 53px;
+}
+
+.header .button:after {
+    content: "\f0c9";
+    opacity: 0;
+    left: 0;
+}
+
+.header .triangle {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.header .triangle.left {
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+
+.header .triangle.right {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.header.open .triangle.left {
+    clip-path: polygon(0 0, 0 100%, 0 100%);
+}
+
+.header.open .triangle.right {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%);
+}
+
+.header.open .button {
+    left: 40px;
+    bottom: 40px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+
+
+.content {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.3);
+    /*        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%);*/
+}
+
+.content .section {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.content .section .inner-text {
+    color: black;
+    font-size: 2em;
+    letter-spacing: 2pt;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.content .section .inner-text:hover{
+    color: rgb(232,114,96);
+}
+
+.content .section .inner-text-1 {
+    top: 37px;
+     position: absolute;
+   
+}
+/* content .section .inner-text-1:hover{
+     transform: translateY(50px);
+     animation-name: pos-top;
+     animation:ease-in-out;
+     animation-duration: 0.5s;
+
+}
+@keyframes pos-top{
+   0%{
+       opacity: 1;
+       top:0px
+   }
+   
+    100%{
+       
+    }
+} */
+
+
+
+.sec-1 > .Box {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    /* display: none; */
+    position: absolute;
+}
+
+.img-list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid transparent; */
+    
+
+    
+    margin: 0;
+}
+
+.img-list .li {
+   border: 5px solid rgb(178,178,178) ;
+    box-sizing: border-box;
+    width: 50%;
+    height: 34%;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.5em;
+    letter-spacing: 1pt;
+    color:black;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    z-index: 1;
+    
+}
+
+
+.img-list .li:hover .title {
+    opacity: 1;
+    color: white;
+}
+
+/*
+.img-list img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+*/
+
+/* Image Placeholder Styles
+-------------------------------------------------------------- */
+.img-placeholder:before,
+.img-placeholder:after {
+    padding-top: 33.33%;
+    content: "";
+    display: block;
+}
+
+.img-placeholder {
+    background: #222;
+    box-shadow: 0 0 0 8px #222 inset, 0 0 0 9px #333 inset;
+    color: #444;
+    line-height: 0;
+    text-align: center;
+    display: block;
+}
+
+/* The hover effect
+-------------------------------------------------------------- */
+.img-list .li:before {
+    transition: all .5s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    transform: scale(0);
+}
+
+.img-list .li:hover:before {
+    opacity: .5;
+    transform: scale(1);
+}
+
+.img-list .li:after {
+    transition: all .6s ease .2s;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 1px solid #aaa;
+    background: #000;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.img-list .li:hover:after {
+    opacity: .35;
+    transform: scale(1);
+}
+
+.li-1 {
+    padding: 2px;
+    position: absolute;
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .2),
+    rgba(219, 219, 231, 0.3)), url(img/web-&-app.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-2 {
+    padding: 2px;
+    position: absolute;
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .2),
+            rgba(219, 219, 231, 0.3)), url(img/Business-Planning.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-3 {
+    padding: 2px;
+    position: absolute;
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .2),
+    rgba(219, 219, 231, 0.3)), url(img/Idea-Identification.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-4 {
+    padding: 2px;
+    position: absolute;
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .2),
+            rgba(219, 219, 231, 0.3)), url(img/Legal-foundation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-5 {
+    padding: 2px;
+    position: absolute;
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .2),
+            rgba(219, 219, 231, 0.3)), url(img/Financial-Basis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-6 {
+   border: 2px soild transparent;
+    
+   background-image: linear-gradient(115deg,
+   rgba(222, 222, 222, .2),
+   rgba(219, 219, 231, 0.3)), url(img/FundRaising.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec-2 > .Box-2 {
+    display: flex;
+    width: 900px;
+    height: 600px;
+
+
+
+    position: absolute;
+}
+
+.content .section .inner-text-2 {
+    top: 780px;
+    position: absolute;
+
+
+
+}
+
+.li-b1 {
+    
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .2),
+    rgba(219, 219, 231, 0.3)), url(img/web-&-app.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-b2 {
+   
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .2),
+    rgba(219, 219, 231, 0.3)), url(img/Business-Planning.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-b3 {
+    
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .2),
+    rgba(219, 219, 231, 0.3)), url(img/Idea-Identification.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-b4 {
+    
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .2),
+            rgba(219, 219, 231, 0.3)), url(img/Legal-foundation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-b5 {
+   
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .2),
+    rgba(127, 127, 131, 0.3)), url(img/Financial-Basis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-b6 {
+    
+    background-image: linear-gradient(115deg,
+    rgba(222, 222, 222, .2),
+    rgba(155, 155, 160, 0.3)), url(img/FundRaising.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

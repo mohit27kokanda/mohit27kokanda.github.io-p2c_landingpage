@@ -1,0 +1,369 @@
+#C-5{
+    background-color: rgba(193, 191, 191, 0.26);
+
+}
+#C-5>.main-heading-c-5 {
+    color: rgb(230,117,100);
+    text-align: center;
+    position: relative;
+    letter-spacing: 1pt;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: -30px;
+    border-bottom: 1px solid rgba(41, 40, 40, 0.582);
+}
+#C-5 .sub-heading{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.container-5 {
+    position: relative;
+    padding-top: 0em;;
+    height: auto;
+   
+}
+
+.grid {
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 1em;
+    max-width: 1200px;
+    list-style: none;
+    text-align: center;
+    background-color: rgba(193, 191, 191, 0.56);
+}
+
+/* Common style */
+.grid figure {
+
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 345px;
+    max-height: 320px;
+    height: 100%;
+    width: 100%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid figure img {
+    position: relative;
+    display: flex;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.grid figure figcaption {
+    padding: .5em;
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/*
+.grid figure figcaption::before {
+position: absolute;
+top: 30px;
+}
+*/
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+    pointer-events: none;
+
+}
+
+.grid figure figcaption {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+
+/*
+.grid figure figcaption>a {
+    z-index: 100;
+    text-indent: 100%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+*/
+
+
+.grid figure h2 {
+    word-spacing: 0.15em;
+    font-size: 1.15em;
+    font-weight: 500;
+    position: absolute;
+    width: 200px;
+    display: flex;
+    top: 40px;
+    left: 20px;
+
+}
+
+
+
+.grid figure h2,
+.grid figure p {
+    margin: 0;
+}
+
+.grid figure p {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+figure.effect-dexter {
+    background: -webkit-linear-gradient(top, rgba(37, 141, 200, 1) 0%, rgba(104, 60, 19, 1) 100%);
+    background: linear-gradient(to bottom, rgba(37, 141, 200, 1) 0%, rgba(104, 60, 19, 1) 100%);
+}
+
+figure.effect-dexter img {
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.effect-dexter:hover img {
+    opacity: 0.4;
+}
+
+figure.effect-dexter figcaption::after {
+    position: absolute;
+
+    right: 10px;
+    bottom: -5px;
+    left: 10px;
+    height: -webkit-calc(35% - 30px);
+    height: calc(35% - -35px);
+    border: 2px solid #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+}
+
+figure.effect-dexter:hover figcaption::after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+figure.effect-dexter figcaption {
+    padding: 1em;
+    text-align: left;
+}
+
+figure.effect-dexter p {
+    position: absolute;
+    right: 60px;
+    bottom: 30px;
+    left: 60px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+}
+
+figure.effect-dexter:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.C-5-II{
+    background-color: rgba(193, 191, 191, 0.56);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+.C-5-II > .bk-2{
+    list-style: none;
+    padding: 0em 4em;
+}
+.ul-c5{
+
+    
+    width: 100%;
+    height: 80vh;
+   
+    
+}
+ .C5{
+    display: flex;
+    position: relative;
+    float: left;
+    
+   
+    width: 251px;
+    height: 305px;
+
+}
+.C-5-heading{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 43%;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+.text-box{
+    border-bottom: 2px solid white;
+    height: 80%;
+    /* position: absolute; */
+    margin: 2em 1em;
+    width: 220px;
+}
+.text-box:hover{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background: rgba(222, 222, 222, .2);
+    animation-name: box-animation;
+    animation-duration: .5s;
+    
+}
+@keyframes box-animation{
+    0%{
+        height: 80%;
+
+    }
+    25%{
+        height: 65%;
+
+    }
+    50%{
+        height: 60%;
+
+    }
+    75%{
+        height: 75%;
+
+    }
+    100%{
+        height: 80%;
+
+    }
+}
+.text-box:hover .small-text{
+    opacity: 1;
+}
+.text-heading{
+    color: white;
+    /* padding: 1em; */
+    word-spacing: 0.15em;
+    font-size: 1.75em;
+    
+    font-weight: 500;
+    text-align: center;
+}
+.text-box .small-text{
+    color: black;
+    position: absolute;
+    bottom: 35px;
+    padding: 0.5em;
+    opacity: 0;
+    width: 200px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 88.5%;
+    
+}
+
+.C5-1{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.C5-2{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.C5-3{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.C5-4{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.C5-5{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.C5-6{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.C5-7{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.C5-8{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .6),
+            rgba(233, 117, 100, 0.3)), url(img/C4-bg-1.jpg);
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}

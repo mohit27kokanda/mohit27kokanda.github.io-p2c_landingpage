@@ -1,4 +1,4 @@
-.center-div {
+/* .center-div {
 
     width: 100%;
     height: 100%;
@@ -42,7 +42,7 @@
     height: 75px;
     margin: 0 5px;
 
-}
+}  */
 
 /*
         .settings-icon {
@@ -65,7 +65,7 @@
         }
 */
 
-.link:hover .settings-icon__line,
+/* .link:hover .settings-icon__line,
 .link:hover .settings-icon__rect {
     stroke: var(--color-link);
     transition: all 0.2s ease 0.05s;
@@ -86,7 +86,7 @@
 .center-div,
 .center-div a {
     cursor: none;
-}
+/* } */
 
 
 
@@ -103,7 +103,19 @@ body {
     margin: 0;
     left: 0;
     right: 0;
+    
 }
+/* #C-2{
+    background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .3),
+            rgba(219, 219, 231, 0.2)), url(img/BG-Container-2.jpg);
+    background-size:center;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    position: fixed;
+
+
+} */
 
 .row {
     /*    border: 2px solid yellow;*/
@@ -236,6 +248,9 @@ body {
     margin-top: 27%;
 
     font-family: sans-serif;
+}
+#right-colms > .company-tag-text:hover{
+    color:rgb(232,114,96);
 }
 
 #right-colms > .number-text {
@@ -1333,5 +1348,132 @@ body {
 
 .landing-page,
 .landing-page a {
-    cursor: none;
+    cursor: url black;
 }
+
+/* mobile responsive */
+@media only screen and (max-width: 600px) {
+
+    .row {
+        /*    border: 2px solid yellow;*/
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        margin-right: 0px;
+    }
+    #right-colms {
+       
+        width: 100%;
+        height: 200px;
+       
+        position: absolute;
+        right: 0;
+        
+    
+    
+    }
+    .row > .left {
+        /*    border: 2px solid black;*/
+        /*    width: 890px;*/
+        width: 100%;
+        height: 750px;
+        position: absolute;
+        left: 0;
+        /*    float: left;*/
+        /*    opacity: 0;*/
+        display: block;
+    
+    }
+    .right:hover + .left {
+        /*    opacity: 1;*/
+        display: block;
+        
+    }
+    #right-colms > .company-tag-text {
+        position: absolute;
+    
+        font-size: 0.95em;
+    
+        font-weight: 600;
+        display: inline-block;
+        justify-items: center;
+        align-items: center;
+    
+        /*    float: left;*/
+        margin-left: 15px;
+        margin-top: 37%;
+    
+        font-family: sans-serif;
+    }
+    #right-colms > .number-text {
+        position: absolute;
+    
+        margin-left: 20px;
+        margin-top: 30px;
+    
+        font-family: sans-serif;
+        font-size: 2.5vw;
+        font-weight: 700;
+        color: rgb(151, 150, 150);
+    }
+    .boxes-1 {
+        width: 890px;
+        height: 750px;
+        position: absolute;
+        top: -100;
+        left: 0;
+        
+    }
+    .boxes-1 > .a-1 {
+        display: none;
+    
+    }
+    .boxes-1 > .a-2 {
+        display: none;
+    
+    }
+    .boxes-1 > .a-3 {
+        display: none;
+    
+    }
+    
+    .boxes-1 > video {
+        top:0px;
+        position: sticky;
+        width: 100%;
+        /* background-image: linear-gradient(115deg,
+            rgba(222, 222, 222, .3),
+            rgba(219, 219, 231, 0.4)), url(Video/Working-Video-2.mp4);
+            background-position: center;
+            background-size: cover;
+            background-repeat: none; */
+        height: 100%;
+    }
+    .boxes-2 {
+        display: none;
+    
+    }
+    .boxes-3 {
+        display: none;
+    
+    }
+    .boxes-4 {
+        display: none;
+    
+    }
+    .boxes-5 {
+        display: none;
+    
+    }
+    .boxes-6 {
+        display: none;
+    
+    }
+    .boxes-7 {
+        display: none;
+    
+    }
+  }

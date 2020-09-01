@@ -4,6 +4,7 @@
 <head>
 
     <title>Power2Create</title>
+    <script src="https://kit.fontawesome.com/3873bea0be.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +18,34 @@
 
     <link href="Container-2.css" rel="stylesheet">
     <link href="Container-3.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link href="Container-4.css" rel="stylesheet">
+    <link href="container-5.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Some SVG filter effects for custom mouse cursors.">
+    <meta name="keywords" content="svg filter, custom cursor, distortion, animation, effect, interactive, web, frontend">
+    <meta name="author" content="Codrops">
+    <link rel="shortcut icon" href="favicon.2e5f6236.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/gdg8keg.css">
+    <link rel="stylesheet" type="text/css" href="demo3.7fae4879.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+
+    <script>
+        document.documentElement.className = "js";
+
+        var supportsCssVars = function supportsCssVars() {
+            var e,
+                t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+        };
+
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+
+    </script>
+
 </head>
+
 <body class="landing-page">
     <div class="loader">
         <img src="img/loader.gif" alt="Loading..." />
@@ -46,16 +73,16 @@
                                 <ul class="button-div navbar-nav">
                                     <li class="nav-btn nav-item" onclick="">
 
-                                        <strong>Company</strong>
+                                        <strong><a>Company</a></strong>
 
                                     </li>
 
-                                    <li class="nav-btn nav-item" onclick=""><strong>Services</strong>
+                                    <li class="nav-btn nav-item" onclick=""><strong><a>Services</a></strong>
 
                                     </li>
-                                    <li class="nav-btn nav-item" onclick=""><strong>Blogs</strong></li>
-                                    <li class="nav-btn nav-item" onclick=""><strong>Contact Us</strong></li>
-                                    <li class="button_slide slide_right nav-item"><strong>Get a Free Quote</strong></li>
+                                    <li class="nav-btn nav-item" onclick=""><strong><a>Blogs</a></strong></li>
+                                    <li class="nav-btn nav-item" onclick=""><strong><a>Contact Us</a></strong></li>
+                                    <li class="button_slide slide_right nav-item"><strong><a>Get a Free Quote</a></strong></li>
 
                             </div>
 
@@ -68,16 +95,16 @@
         </div>
         <div class="mySlides ">
 
-            <img src='img/gif-1920x1080-web&app-min.gif' class="image-design image-transition more-size" alt="Web & App" />
+            <img src='img/gif-1920x1080-web&app.gif' class="image-design image-transition more-size" alt="Web & App" />
             <img src='img/1.gif' class="image-design image-transition less-size" alt="Web & App" />
-            <div >
-                <h1 class="banner-heading f-1" ><b>Web And App</b></h1>
+            <div>
+                <h1 class="banner-heading f-1"><b><a>Web And App</a></b></h1>
                 <div class="banner-content">
-                    <h2><b>One stop Solution</b></h2>
+                    <h2><b><a>One stop Solution</a></b></h2>
                 </div>
             </div>
             <a class="prev text-link" onclick='plusSlides(-1)'><strong>Fundraising<br> & Valuation</strong> </a>
-            <a class="next text-link" onclick='plusSlides(1)'><strong>Idea Identification <br> & Assessment </strong></a>
+            <a class="next text-link" onclick='plusSlides(1)'><strong>Idea Identification <br> & Assessment</strong></a>
 
         </div>
 
@@ -85,12 +112,12 @@
 
             <img src='img/gif-idea.gif' class="image-design more-size" alt="Idea Identification & Assesment" />
             <img src='img/2.gif' class="image-design image-transition less-size" alt="Web & App" />
-            <div>
+            <!-- <div>
                 <h1  class="banner-heading f-3"><b>Business Planning</b></h1>
                 <div class="banner-content">
                     <h2><b>Shaping Your Ideas With a Plan</b></h2>
                 </div>
-            </div>
+            </div> -->
             <a class="prev text-link" onclick='plusSlides(-1)'><strong>Web<br> & App</strong> </a>
             <a class="next text-link" onclick='plusSlides(1)'><strong>Business <br>Planning</strong></a>
 
@@ -100,9 +127,9 @@
             <img src='img/gif-business-planning.gif' class="image-design more-size" alt="Business Planning" />
             <img src='img/3.gif' class="image-design image-transition less-size" alt="Web & App" />
             <div>
-                <h1  class="banner-heading f-3"><b>Business Planning</b></h1>
+                <h1 class="banner-heading f-3"><b><a>Business Planning</a></b></h1>
                 <div class="banner-content">
-                    <h2><b>Shaping Your Ideas With a Plan</b></h2>
+                    <h2><b><a>Shaping Your Ideas With a Plan</a></b></h2>
                 </div>
             </div>
             <a class="prev text-link" onclick='plusSlides(-1)'><strong>Idea Identification<br> & Assessment</strong></a>
@@ -115,13 +142,13 @@
             <img src='img/gif-legal.gif' class="image-design more-size" alt="Legal Foundation" />
             <img src='img/4.gif' class="image-design image-transition less-size" alt="Web & App" />
             <div>
-                <h1  class="banner-heading f-4 "><b>Building a Legal Foundation</b></h1>
+                <h1 class="banner-heading f-4 "><b><a>Building a Legal Foundation</a></b></h1>
                 <div class="banner-content">
-                    <h2><b>Laying Brick By Brick Creating Robust</b></h2>
-                    <h2><b>Legal Foundation</b></h2>
+                    <h2><b><a>Laying Brick By Brick Creating Robust</a></b></h2>
+                    <h2><b><a>Legal Foundation</a></b></h2>
                 </div>
             </div>
-            <a class="prev text-link" onclick='plusSlides(-1)'><strong>Business <br>Planning</strong></a>
+            <a class="prev text-link" onclick='plusSlides(-1)'><strong>Business <br>Planning<strong></a>
             <a class="next text-link" onclick='plusSlides(1)'><strong>Fundraising <br> & Valuation</strong> </a>
 
         </div>
@@ -130,14 +157,14 @@
             <img src='img/gif-fundraiser.gif' class="image-design more-size" alt="Fundraiser" />
             <img src='img/5.gif' class="image-design image-transition less-size" alt="Web & App" />
             <div>
-                <h1 class="banner-heading"><b class="f-5">Fundraising and Valuation</b></h1>
+                <h1 class="banner-heading"><b class="f-5"><a>Fundraising and Valuation</a></b></h1>
                 <div class="banner-content">
-                    <h2><b class="f-5-1">Give Your Spark the fuel it</b></h2>
-                    <h2><b class="f-5-1">Needs To Soar High</b></h2>
+                    <h2><b class="f-5-1"><a>Give Your Spark the fuel it</a></b></h2>
+                    <h2><b class="f-5-1"><a>Needs To Soar High</a></b></h2>
                 </div>
             </div>
             <a class="prev text-link" onclick='plusSlides(-1)'><strong>Buliding a Legal<br> Foundation</strong> </a>
-            <a class="next text-link" onclick='plusSlides(1)'><strong>Web <br>& App </strong></a>
+            <a class="next text-link" onclick='plusSlides(1)'><strong>>Web <br>& App </strong></a>
 
         </div>
         <div>
@@ -172,20 +199,20 @@
 
 
 
-<!-- Container-2 -->
-<!-- Container ---2   -->
+    <!-- Container-2 -->
+    <!-- Container ---2   -->
 
 
 
 
-    <div class="center-div">
+    <!-- <div class="center-div">
         <div class="cursor cursor--small"></div>
         <canvas class="cursor cursor--canvas" resize></canvas>
 
         <nav class="nav">
             <a href="#" class="link"></a>
         </nav>
-    </div>
+    </div> -->
 
 
     <div id="C-2" class="Containerfliud">
@@ -193,24 +220,27 @@
 
             <div class="col-5 right">
                 <div class=" Number-1" id="right-colms" href="#">
-                    <number class="number-text">01</number><span class=" company-tag-text"> Web & App Development</span>
+                    <number class="number-text">01</number><span class=" company-tag-text"><a> Web & App Development</a></span>
                 </div>
             </div>
             <div class="col-7   left">
-                <div id="left-colms" class="boxes-1">
-                    <video autoplay muted loop>
+                <div id="left-colms" class=" boxes-1">
+                    <video class="d-none d-sm-block" autoplay muted loop>
                         <source src="Video/BG_Video.mp4" type="video/mp4">
+                    </video>
+                    <video class="small-sc-video d-block d-sm-none" autoplay muted loop>
+                        <source src="Video/Working-Video-2.mp4" type="video/mp4">
                     </video>
                     <div class="a-1">
                         <!-- <img src="img/P-1.jpg"> -->
                         <div class="A-1"></div>
                     </div>
                     <div class="a-2">
-                                                <div class="A-2"></div>
+                        <div class="A-2"></div>
 
                     </div>
                     <div class="a-3">
-                                            <div class="A-3"></div>
+                        <div class="A-3"></div>
 
                     </div>
                 </div>
@@ -220,7 +250,7 @@
 
             <div class="col-5 right">
                 <div class="Number-2" id="right-colms" href="#">
-                    <number class="number-text">02</number> <span class="company-tag-text"> Business Planning</span>
+                    <number class="number-text">02</number> <span class="company-tag-text"><a> Business Planning</a></span>
                 </div>
             </div>
             <div class="col-7 left-align  left">
@@ -241,7 +271,7 @@
 
             <div class="col-5 right">
                 <div class="Number-3" id="right-colms" href="#">
-                    <number class="number-text ">03</number> <span class="company-tag-text No-3"> Idea Identification and Assessment</span>
+                    <number class="number-text ">03</number> <span class="company-tag-text No-3"><a> Idea Identification and Assessment</a></span>
                 </div>
             </div>
             <div class="col-7 left-align  left">
@@ -262,7 +292,7 @@
 
             <div class="col-5 right">
                 <div class="Number-4 No-4" id="right-colms" href="#">
-                    <number class="number-text">04</number><span class="company-tag-text"> Building a Legal Foundation</span>
+                    <number class="number-text">04</number><span class="company-tag-text"><a> Building a Legal Foundation</a></span>
                 </div>
             </div>
             <div class="col-7 left-align  left">
@@ -283,7 +313,7 @@
 
             <div class="col-5 right">
                 <div class="Number-5" id="right-colms" href="#">
-                    <number class="number-text">05</number><span class="company-tag-text No-5"> Understanding Financial Basics</span>
+                    <number class="number-text">05</number><span class="company-tag-text No-5"> <a>Understanding Financial Basics</a></span>
                 </div>
             </div>
             <div class="col-7 left-align left">
@@ -304,7 +334,7 @@
 
             <div class="col-5 right">
                 <div class=" Number-6" id="right-colms" href="#">
-                    <number class="number-text">06</number><span class="company-tag-text"> Fund Raising and Valuation</span>
+                    <number class="number-text">06</number><span class="company-tag-text"> <a>Fund Raising and Valuation</a></span>
                 </div>
             </div>
             <div class="col-7 left-align  left">
@@ -326,7 +356,7 @@
             <div class="col-5 right">
                 <div class="Number-7" id="right-colms" href="#">
                     <number class="number-text">07</number>
-                    <span class="company-tag-text"> Pitching and Term Sheet</span>
+                    <span class="company-tag-text"> <a>Pitching and Term Sheet</a></span>
                 </div>
             </div>
             <div class="col-7  left-align left">
@@ -349,74 +379,265 @@
 
 
     <!-- Container-3 -->
-    <div class="containerfluid">       
-    <div class="container">
-        <h1 class="First_heading">Our Key Features</h1>
-      
-        <div class="gallery-wrap">
-          <div class="item item-1">
-              
-            <h2> Entrepreneur Ideas Centric Assessment</h2>
-            <p>We assist your idea and its underlying potential in the everchanging market, to create a detailed analysis for consumer needs and requirements.</p>
-            <div class="Video-1">
-            <video autoplay muted loop> <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
-           </div>
-        </div>
-        
-          <div class="item item-2">
-            <h2> Consultant Site Visit</h2>
-            <p>We perform site visits to new and existing startups and boost your potential with detailed assesments under aegis of experienced consultants</p>
-            <div class="Video-1">
-                <video autoplay muted loop> <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
-               </div>  
-        </div>
-          <div class="item item-3">
-            <h2> Dedicated Skilled Team</h2>
-            <p>We assign a group of skilled driven individuals who uphold utmost quality and integrity in their services. Their mentorship and service will be significant in the expansion of your business.</p>
-            <div class="Video-1">
-                <video autoplay muted loop> <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
-               </div>  
-        </div>
-          <div class="item item-4">
-            <h2> Excellent Support To Entrepreneur</h2>
-            <p>We will work with you in every step to the way. Be it finance, legal or tech, we are here to support your venture and your core ideas.</p>
-            <div class="Video-1">
-                <video autoplay muted loop> <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
-               </div>  
-        </div>
-          <div class="item item-5">
-            <h2>Client Business Data Privacy And Data Backups</h2>
-            <p>Your privacy is one of our biggest concerns. We strictly adhere to all privacy norms and have regular backups to deal strategically with any shortcomings.</p>
-            <div class="Video-1">
-                <video autoplay muted loop> <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
-               </div>  
-        </div>
-          <div class="item item-6">
-            <h2>Data Protection</h2>
-            <p>After signing the NDA, our services will be rendered by keeping in mind the confidentiality, integrity and safety of your private data.</p>
-            <div class="Video-1">
-                <video autoplay muted loop> <source src="Video/Working-Video-2.mp4" type="video/mp4"></video>
-               </div>  
-        </div>
-        </div>
-       </div>
-       </div>
-      
-      
+    <div class="containerfluid">
+        <!-- <div class="container"> -->
+            <h1 class="First_heading"><a>Our Key Features</a></h1>
 
+            <div class="gallery-wrap">
+                <div class="item item-1">
+
+                    <h2> <a>Entrepreneur Ideas Centric Assessment</a></h2>
+                    <p>We assist your idea and its underlying potential in the everchanging market, to create a detailed analysis for consumer needs and requirements.</p>
+                    <div class="Video-1">
+                        <video autoplay muted loop>
+                            <source src="Video/BG_Video.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+
+                <div class="item item-2">
+                    <h2><a> Consultant Site Visit</a></h2>
+                    <p>We perform site visits to new and existing startups and boost your potential with detailed assesments under aegis of experienced consultants</p>
+                    <div class="Video-1">
+                        <video autoplay muted loop>
+                            <source src="Video/BG_Video.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+                <div class="item item-3">
+                    <h2><a> Dedicated Skilled Team</a></h2>
+                    <p>We assign a group of skilled driven individuals who uphold utmost quality and integrity in their services. Their mentorship and service will be significant in the expansion of your business.</p>
+                    <div class="Video-1">
+                        <video autoplay muted loop>
+                            <source src="Video/BG_Video.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+                <div class="item item-4">
+                    <h2> <a>Excellent Support To Entrepreneur</a></h2>
+                    <p>We will work with you in every step to the way. Be it finance, legal or tech, we are here to support your venture and your core ideas.</p>
+                    <div class="Video-1">
+                        <video autoplay muted loop>
+                            <source src="Video/BG_Video.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+                <div class="item item-5">
+                    <h2><a>Client Business Data Privacy And Data Backups</a></h2>
+                    <p>Your privacy is one of our biggest concerns. We strictly adhere to all privacy norms and have regular backups to deal strategically with any shortcomings.</p>
+                    <div class="Video-1">
+                        <video autoplay muted loop>
+                            <source src="Video/BG_Video.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+                <div class="item item-6">
+                    <h2><a>Data Protection</a></h2>
+                    <p>After signing the NDA, our services will be rendered by keeping in mind the confidentiality, integrity and safety of your private data.</p>
+                    <div class="Video-1">
+                        <video autoplay muted loop>
+                            <source src="Video/BG_Video.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+    <!-- Container-4 -->
+
+
+    <div class="containerfluid bigger-container">
+        <div class="container Container-4">
+            <header class="header">
+                
+                <div class="triangle left">
+                    <h1><a>Check Out Our Services</a></h1>
+                </div>
+                <div class="triangle right">
+                    <h1><a>Check Out Our Services</a></h1>
+                </div>
+              <a>  <button class="button"> <i class="angle-double-right"></i></button></a>
+              <h1 class="header-tag-line"><a>CHECK OUT OUR SERVICES</a></h1>
+              
+            </header>
+
+            <!--
+            <nav>
+                <ul>
+                    <li>IT Services</li>
+                    <li>Business Services</li>
+                </ul>
+                <div id="nav-close"><i class="fas fa-times"></i></div>
+            </nav>-->
+
+            <content class="content">
+                <section class=" section sec-1"><span class="inner-text inner-text-1"><a>IT Services</a></span>
+
+                    <div class="Box">
+                        <ul class="img-list">
+                            <li class="li li-1"><span class="title"><a>Android App Development</a></span></li>
+                            <li class="li li-2"> <span class="title"><a>iOS App Development</a></span></li>
+                            <li class="li li-3"> <span class="title"><a>Web Development</a></span></li>
+                            <li class="li li-4"> <span class="title"><a>WordPress</a></span></li>
+                            <li class="li li-5"> <span class="title"><a>.Net Development</a></span></li>
+                            <li class="li li-6"> <span class="title"><a>Internet Marketing</a></span></li>
+
+                        </ul>
+                    </div>
+
+
+                </section>
+
+
+                <section class=" section sec-2"><span class="inner-text inner-text-2"><a>Business Services</a></span>
+                    <div class="Box-2">
+                        <ul class="img-list">
+                            <li class="li li-b1"> <span class="title"><a> Identification & Assessment</a></span></li>
+                            <li class="li li-b2"> <span class="title"><a>Building A Legal Foundation</a></span></li>
+                            <li class="li li-b3"> <span class="title"><a>Financial Basics</a></span></li>
+                            <li class="li li-b4"> <span class="title"><a>Business Planning & Modeling</a></span></li>
+                            <li class="li li-b5"> <span class="title"><a>Fund Raising & Valuation</a></span></li>
+                            <li class="li li-b6"> <span class="title"><a>Pitching & Term Sheet</a></span></li>
+
+                        </ul>
+                    </div>
+                </section>
+
+            </content>
+        </div>
+
+
+    </div>
+
+    <!-- Container-5 -->
+<div class="containerfluid " id="C-5">
+    <h1 class="main-heading-c-5"><a>Process We Follow</a></h1>
+    <div class="container container-5">
+        <div class="grid grid -2">
+            <h1 class="sub-heading"><a>Entrepreneur Support</a></h1>
+            <figure class="figure effect-dexter">
+                <img src="https://tympanus.net/Development/HoverEffectIdeas/img/19.jpg" alt="img19" />
+                <figcaption class="figcation">
+                    <h2 class="h2"><a>Scope of Business</a></h2>
+                    <p class="down-text">Customer flow analysis. </p>
+
+                </figcaption>
+            </figure>
+            <figure class="figure effect-dexter">
+                <img src="https://tympanus.net/Development/HoverEffectIdeas/img/12.jpg" alt="img12" />
+                <figcaption class="figcation">
+                    <h2 class="h2"><a>Problem Identification and Assessment</a></h2>
+                    <p class="down-text">Find rignt idea by looking into problems and needs.</p>
+
+                </figcaption>
+            </figure>
+            <figure class=" figure effect-dexter">
+                <img src="https://tympanus.net/Development/HoverEffectIdeas/img/12.jpg" alt="img12" />
+                <figcaption class="figcation">
+                    <h2 class="h2"><a>Appraisals</a></h2>
+                    <p class="down-text">Help in analysing real time market data. </p>
+
+                </figcaption>
+            </figure>
+            <figure class="figure effect-dexter">
+                <img src="https://tympanus.net/Development/HoverEffectIdeas/img/12.jpg" alt="img12" />
+                <figcaption class="figcation">
+                    <h2 class="h2"><a>Business Planning and Modelling</a></h2>
+                    <p class="down-text">Service bundling and service unbundling and servitization.</p>
+
+                </figcaption>
+            </figure>
+            <figure class="figure effect-dexter">
+                <img src="https://tympanus.net/Development/HoverEffectIdeas/img/12.jpg" alt="img12" />
+                <figcaption class="figcation">
+                    <h2 class="h2"><a>Project Feasibility Report</a></h2>
+                    <p class="down-text">All appraisals at one place provide better visiblity over business.</p>
+
+                </figcaption>
+            </figure>
+            <figure class="figure effect-dexter">
+                <img src="https://tympanus.net/Development/HoverEffectIdeas/img/12.jpg" alt="img12" />
+                <figcaption class="figcation">
+                    <h2 class="h2"><a>Investors Pitch in Deck and Term Sheet for Funding</a></h2>
+                    <p class="down-text">Terms and conditions transparency in work or any business help in better business culture.</p>
+
+                </figcaption>
+            </figure>
+        </div>
+
+
+    </div>
+    <div class="container C-5-II">
+        <h1 class="C-5-heading">IT Services</h1>
+        <div class="bk-2">
+            <ul class="ul-c5">
+                <li class="C5-1 C5">
+                    <article class="text-box">
+                        <h2 class="text-heading">Prerequisites</h2>
+                        <span class="small-text">Collecting the requirements from the customer to build and start the business procedures.</span>
+                    </article>
+                </li>
+                <li class="C5-2 C5"><article class="text-box">
+                    <h2 class="text-heading">Business Planning Model</h2>
+                    <span class="small-text">Planning the business financially and legally by the experts.</span>
+                </article></li>
+                <li class="C5-3 C5"><article class="text-box">
+                    <h2 class="text-heading">UI/UX Design</h2>
+                    <span class="small-text">Creating the designs of the webpage with help of latest tools.</span>
+                </article></li>
+                <li class="C5-4 C5"><article class="text-box">
+                    <h2 class="text-heading">Prototype</h2>
+                    <span class="small-text">A final layout is created which is ready for development.</span>
+                </article></li>
+                <li class="C5-5 C5"><article class="text-box">
+                    <h2 class="text-heading">Development</h2>
+                    <span class="small-text">The layout provided is developed using various tools and technologies with complete transparency.</span>
+                </article></li>
+                <li class="C5-6 C5"><article class="text-box">
+                    <h2 class="text-heading">Review</h2>
+                    <span class="small-text">The reviews are taken for a quality product assurance.</span>
+                </article></li>
+                <li class="C5-7 C5"><article class="text-box">
+                    <h2 class="text-heading">Deployment</h2>
+                    <span class="small-text">The product is ready for deployment to the customer.</span>
+                </article></li>
+                <li class="C5-8 C5"><article class="text-box">
+                    <h2 class="text-heading">Manage and Support</h2>
+                    <span class="small-text">We provide assistance after deployment for proper functioning of the product.</span>
+                </article></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+
+    <svg class="cursor" width="280" height="280" viewBox="0 0 280 280">
+        <defs>
+            <filter id="filter-1" x="-50%" y="-50%" width="150%" height="150%" filterUnits="objectBoundingBox">
+                <feTurbulence type="fractalNoise" baseFrequency="0.02 0.15" numOctaves="3" result="warp"></feTurbulence>
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="0" in="SourceGraphic" in2="warp"></feDisplacementMap>
+            </filter>
+        </defs>
+        <circle class="cursor__inner" cx="140" cy="140" r="50"></circle>
+    </svg>
+    <script src="curser-blast.js"></script>
     
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+
     <script src="Script.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
-    <script src="JS-Cursor.js"></script>
+    <!-- <script src="JS-Cursor.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
