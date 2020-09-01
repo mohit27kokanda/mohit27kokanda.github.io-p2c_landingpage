@@ -82,6 +82,7 @@ resume = () => {
 }
 function toggl(){
 var data=document.querySelectorAll(".image-design");
+console.log(data)
 data[0].classList.toggle('image-design-none')
 data[1].classList.toggle('image-design-none')
 data[2].classList.toggle('image-design-none')

@@ -436,29 +436,7 @@
 }
 
 
-@media(max-width:986px) {
-    .navbar .button_slide {
-        font-weight: 500;
-        cursor: pointer;
-        letter-spacing: 1px;
-        box-shadow: inset -35px 0 0 0 white;
-        -webkit-transition: ease-out 0.4s;
-        -moz-transition: ease-out 0.4s;
-        transition: ease-out 0.4s;
-        font-size: 1.1rem;
-        margin-right: auto
-    }
 
-    .navbar ul {
-        height: 100%;
-
-    }
-
-    .navbar ul li {
-        padding: 40px 0;
-    }
-
-}
 
 
 
@@ -492,6 +470,7 @@
     animation-name: example-1;
     animation-duration: 2s;   
 }
+
 @media(max-width:650px){
     .less-size{
         display: block;
@@ -535,19 +514,41 @@
     .f-5-1{
         font-size: 25px;
     }
-
-}
-@media(max-width:986px){
     .image-design-none{
-        display: none;
+        display: none !important;
     }
     .slideshow-container-nav{
-        background-color:#FFDAB9;
-        width: 100%;
-        height: 100%;
-        transition-property: width, height,background-color;
-        transition-duration: 5s;
+        background-color:#FFDAB9 !important;
+        width: 100% !important;
+        height: 100% !important;
+        transition-property: width, height,background-color !important;
+        transition-duration: 4s !important;
     }
+
+}
+@media(max-width:986px) {
+    .navbar .button_slide {
+        font-weight: 500;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: inset -35px 0 0 0 white;
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+        font-size: 1.1rem;
+        margin-right: auto
+    }
+
+    .navbar ul {
+        height: 100%;
+
+    }
+
+    .navbar ul li {
+        padding: 40px 0;
+    }
+    
+    
     .navbar .button_slide {
     font-weight: 500;
     cursor: pointer;
@@ -585,8 +586,17 @@
 .vertical-small-line {
 display: none;
 }
+.image-design-none{
+    display: none;
 }
-
+.slideshow-container-nav{
+    background-color:#FFDAB9;
+    width: 100%;
+    height: 100%;
+    transition-property: width, height,background-color;
+    transition-duration: 4s;
+}
+}
 /* Container-3 */
 
 
