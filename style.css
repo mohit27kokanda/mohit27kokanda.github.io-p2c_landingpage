@@ -501,8 +501,8 @@
     }
     .banner-heading{
         position: absolute;
-        top: 25%;
-        left: 80px;
+        top: 20%;
+        left: 30px;
         cursor: default;
         animation-name: example;
         animation-duration: 2s;
@@ -510,12 +510,12 @@
     @keyframes example{
         from {
             left:-400px;}
-        to {top: 25%;}
+        to {top: 21%;}
     }
     @keyframes example-1{
         from {
             top: 65% ;left:300px;}
-        to {top: 35%;}
+        to {top: 30%;}
     }
     .banner-heading:hover{
         cursor: pointer;
@@ -523,8 +523,8 @@
     }
     .banner-content{
         position: absolute;
-        top: 35%;
-        left: 80px;
+        top: 30%;
+        left: 30px;
         cursor: default;
         animation-name: example-1;
         animation-duration: 2s;   
@@ -568,9 +568,6 @@
     left: 25px;
 }
 .vl-line {
-    border-left: 2px solid rgb(91, 91, 113, 0.7);
-    height: 100vh;
-    position: absolute;
     left:-20px;
     top: -10px;
 }
