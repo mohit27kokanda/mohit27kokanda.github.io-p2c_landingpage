@@ -76,9 +76,9 @@
     top: -410px;
     opacity: 0;
 }
-.header .button:focus +.header-tag-line{
+/* .header .button:focus +.header-tag-line{
    opacity: 1;
-}
+} */
 
 .header .button:before,
 .header .button:after {
