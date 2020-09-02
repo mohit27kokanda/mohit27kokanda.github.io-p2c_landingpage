@@ -323,8 +323,8 @@
     padding: 2px;
     position: absolute;
     background-image: linear-gradient(115deg,
-    rgba(222, 222, 222, .2),
-    rgba(219, 219, 231, 0.3)), url(img/web-&-app.jpg);
+    rgba(222, 222, 222, .4),
+    rgba(219, 219, 231, 0.5)), url(img/web-&-app.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -334,8 +334,8 @@
     padding: 2px;
     position: absolute;
     background-image: linear-gradient(115deg,
-            rgba(222, 222, 222, .2),
-            rgba(219, 219, 231, 0.3)), url(img/Business-Planning.jpg);
+            rgba(222, 222, 222, .4),
+            rgba(219, 219, 231, 0.5)), url(img/Business-Planning.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -345,8 +345,8 @@
     padding: 2px;
     position: absolute;
     background-image: linear-gradient(115deg,
-    rgba(222, 222, 222, .2),
-    rgba(219, 219, 231, 0.3)), url(img/Idea-Identification.jpg);
+    rgba(222, 222, 222, .4),
+    rgba(219, 219, 231, 0.5)), url(img/Idea-Identification.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -356,8 +356,8 @@
     padding: 2px;
     position: absolute;
     background-image: linear-gradient(115deg,
-            rgba(222, 222, 222, .2),
-            rgba(219, 219, 231, 0.3)), url(img/Legal-foundation.jpg);
+            rgba(222, 222, 222, .4),
+            rgba(219, 219, 231, 0.5)), url(img/Legal-foundation.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -367,8 +367,8 @@
     padding: 2px;
     position: absolute;
     background-image: linear-gradient(115deg,
-            rgba(222, 222, 222, .2),
-            rgba(219, 219, 231, 0.3)), url(img/Financial-Basis.jpg);
+            rgba(222, 222, 222, .4),
+            rgba(219, 219, 231, 0.5)), url(img/Financial-Basis.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -378,8 +378,8 @@
    border: 2px soild transparent;
     
    background-image: linear-gradient(115deg,
-   rgba(222, 222, 222, .2),
-   rgba(219, 219, 231, 0.3)), url(img/FundRaising.jpg);
+   rgba(222, 222, 222, .4),
+   rgba(219, 219, 231, 0.5)), url(img/FundRaising.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -406,8 +406,8 @@
 .li-b1 {
     
     background-image: linear-gradient(115deg,
-    rgba(222, 222, 222, .2),
-    rgba(219, 219, 231, 0.3)), url(img/web-&-app.jpg);
+    rgba(222, 222, 222, .4),
+    rgba(219, 219, 231, 0.5)), url(img/web-&-app.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -416,8 +416,8 @@
 .li-b2 {
    
     background-image: linear-gradient(115deg,
-    rgba(222, 222, 222, .2),
-    rgba(219, 219, 231, 0.3)), url(img/Business-Planning.jpg);
+    rgba(222, 222, 222, .4),
+    rgba(219, 219, 231, 0.5)), url(img/Business-Planning.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -426,8 +426,8 @@
 .li-b3 {
     
     background-image: linear-gradient(115deg,
-    rgba(222, 222, 222, .2),
-    rgba(219, 219, 231, 0.3)), url(img/Idea-Identification.jpg);
+    rgba(222, 222, 222, .4),
+    rgba(219, 219, 231, 0.5)), url(img/Idea-Identification.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -436,8 +436,8 @@
 .li-b4 {
     
     background-image: linear-gradient(115deg,
-            rgba(222, 222, 222, .2),
-            rgba(219, 219, 231, 0.3)), url(img/Legal-foundation.jpg);
+            rgba(222, 222, 222, .4),
+            rgba(219, 219, 231, 0.5)), url(img/Legal-foundation.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -446,8 +446,8 @@
 .li-b5 {
    
     background-image: linear-gradient(115deg,
-    rgba(222, 222, 222, .2),
-    rgba(127, 127, 131, 0.3)), url(img/Financial-Basis.jpg);
+    rgba(222, 222, 222, .4),
+    rgba(127, 127, 131, 0.5)), url(img/Financial-Basis.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -456,8 +456,8 @@
 .li-b6 {
     
     background-image: linear-gradient(115deg,
-    rgba(222, 222, 222, .2),
-    rgba(155, 155, 160, 0.3)), url(img/FundRaising.jpg);
+    rgba(222, 222, 222, .4),
+    rgba(155, 155, 160, 0.5)), url(img/FundRaising.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
