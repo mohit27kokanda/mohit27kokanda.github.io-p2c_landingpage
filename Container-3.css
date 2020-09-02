@@ -198,7 +198,7 @@
     .container {
       padding: 75px 0;
       margin: 0 auto;
-      width: 1024px;
+      width: 100%;
       overflow: scroll;
 
     }
@@ -217,6 +217,10 @@
     }
     .containerfluid{
       margin-top:0px;
+      margin: 0;
+      padding-left: 0px;
+      padding-right: 0px;
+    
     
     }
   }
