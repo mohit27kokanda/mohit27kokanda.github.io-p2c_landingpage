@@ -196,7 +196,7 @@
   }
   @media only screen and (max-width: 600px) {
     .container {
-      padding: 75px 0;
+      padding:  0;
       margin: 0 auto;
       width: 100%;
       overflow: scroll;
