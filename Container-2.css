@@ -1386,6 +1386,8 @@ body {
         left: 0;
         right: 0;
         
+        
+        
     }
 
     .row {
@@ -1482,19 +1484,32 @@ body {
     }
     .div-full-bg-sc-video{
         width: 100%;
-        height: 105%;
+        height: 109%;
         margin: 0;
         padding: 0;
+        overflow: hidden;
         position: absolute;
     }
+    
     .full-bg-sc-video{
         width: 100%;
-        height: 100%;
+        height:100%;
         top: 0;
         margin: 0;
         padding: 0;
-        position:absolute;
+        position:relative;
 
+    }
+    .div-full-bg-sc-video > video{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        /* height: 108.7%; */
+        /* top: 0; */
+    
+        
+        /* margin-bottom: 500px; */
+        /* padding-bottom: 200px; */
     }
     /* .boxes-1 {
         width: 890px;
