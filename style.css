@@ -120,11 +120,20 @@
 .navbar-toggler-icon{
     display: block !important;
     width: 30px !important;
-    background: #151719;
-    height: 5px !important;
+    background: rgba(0, 0, 0);
+    height:1px !important;
     margin: 5px 0px !important;
-
 }
+.nav-6 {
+    height: 2px !important;
+}
+.nav-7{
+    height: 2px !important;
+}
+.nav-8{
+    height: 2px !important;
+}
+
 .show-hover{
     display: none;
 }
@@ -477,15 +486,14 @@
     cursor: pointer;
     position: absolute;
     top: 45%;
-    height: 10px !important;
-    width: auto;
+    height: 20px !important;
     margin-top: 0;
     padding: 0;
-    color: rgb(91, 91, 113, 0.0);
+    color: rgb(63,69,100);
     transition: .6s ease;
     border-radius: 0 1px 1px 0;
     opacity: 1;
-    font-size: 25px;
+    font-size: 18px;
 }
     .less-size{
         display: block;
@@ -495,7 +503,7 @@
     }
     .banner-heading{
         position: absolute;
-        top: 20%;
+        top: 21%;
         left: 30px;
         cursor: default;
         animation-name: example;
@@ -504,7 +512,7 @@
     @keyframes example{
         from {
             left:-400px;}
-        to {top: 21%;}
+        to {top: 22%;}
     }
     @keyframes example-1{
         from {
@@ -513,7 +521,7 @@
     }
     .banner-heading:hover{
         cursor: pointer;
-        top: 28%;
+        top: 20%;
     }
     .banner-content{
         position: absolute;
@@ -533,22 +541,28 @@
         font-size: 30px;
     }
     .f-3-1{
-        font-size: 20px;
+        font-size: 25px;
     }
     .f-5{
         font-size: 30px;
     
     }
     .f-4{
-        font-size: 30px;
+        font-size: 28px;
     }
     .f-4-1{
-        font-size: 1rem;
+        font-size: 20px;
     }
     .f-5-1{
-        font-size: 18px;
+        font-size: 22px;
     }
     .image-design-none{
+        display: none !important;
+    }
+    .none-display{
+        display: none !important;
+    }
+    .none-display-1{
         display: none !important;
     }
     .slideshow-container-nav{
