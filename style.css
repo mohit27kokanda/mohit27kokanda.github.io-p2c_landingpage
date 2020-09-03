@@ -38,6 +38,14 @@
         stroke-width: var(--cursor-stroke-width);
     }
 }
+@media only screen and (max-width: 600px) {
+    .cursor{
+        display: none;
+    }
+    .cursor__inner {
+        display: none;
+    }
+}
 .loader {
     position: fixed;
     z-index: 99;
