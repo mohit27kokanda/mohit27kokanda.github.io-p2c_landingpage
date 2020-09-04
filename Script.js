@@ -92,6 +92,7 @@ data[6].classList.toggle('image-design-none')
 data[7].classList.toggle('image-design-none')
 data[8].classList.toggle('image-design-none')
 data[9].classList.toggle('image-design-none')
+
 var dat=document.querySelector(".slideshow-container");
 dat.classList.toggle('slideshow-container-nav')
 var bannerheading=document.querySelectorAll(".banner-heading");
@@ -106,4 +107,17 @@ bannercontent[1].classList.toggle('no-banner-heading');
 bannercontent[2].classList.toggle('no-banner-heading');
 bannercontent[3].classList.toggle('no-banner-heading');
 bannercontent[4].classList.toggle('no-banner-heading');
+bannercontent[5].classList.toggle('no-banner-heading');
+var dat0=document.querySelectorAll(".nav-6");
+dat0[0].classList.toggle('none-display')
+dat0[1].classList.toggle('none-display')
+dat0[2].classList.toggle('none-display')
+dat0[3].classList.toggle('none-display')
+dat0[4].classList.toggle('none-display')
+dat0[5].classList.toggle('none-display')
+dat0[6].classList.toggle('none-display')
+dat0[7].classList.toggle('none-display')
+dat0[8].classList.toggle('none-display')
+dat0[9].classList.toggle('none-display')
+
 }
