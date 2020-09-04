@@ -108,6 +108,7 @@ bannercontent[2].classList.toggle('no-banner-heading');
 bannercontent[3].classList.toggle('no-banner-heading');
 bannercontent[4].classList.toggle('no-banner-heading');
 bannercontent[5].classList.toggle('no-banner-heading');
+bannercontent[6].classList.toggle('no-banner-heading');
 var dat0=document.querySelectorAll(".nav-6");
 dat0[0].classList.toggle('none-display')
 dat0[1].classList.toggle('none-display')
